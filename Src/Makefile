@@ -17,6 +17,7 @@ define make_target
 endef
 
 all:
+	@mkdir ${THIS_MAKEFILE_DIR}/Lib
 	$(call make_target, all)
 	@echo -e '\n\e[36m\e[1m|||||===== Build All Successfully =====|||||\e[0m\n'
 
