@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="ItemType" Type="0" />
+    <Type Name="ItemID" Type="0" />
+    <Type Name="CountLimit" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" ItemType="1" ItemID="1" CountLimit="1" />
+    <Line ID="2" ItemType="2" ItemID="2" CountLimit="1" />
+    <Line ID="3" ItemType="3" ItemID="3" CountLimit="1" />
+    <Line ID="4" ItemType="1" ItemID="4" CountLimit="1" />
+    <Line ID="5" ItemType="2" ItemID="5" CountLimit="1" />
+    <Line ID="6" ItemType="3" ItemID="6" CountLimit="1" />
+  </Data>
+</Root>

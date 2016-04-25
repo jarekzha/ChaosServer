@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="RoleID" Type="0" />
+    <Type Name="Star" Type="0" />
+    <Type Name="StrRate" Type="1" />
+    <Type Name="IntRate" Type="1" />
+    <Type Name="AgiRate" Type="1" />
+  </TypeMeta>
+  <Data>
+    <Line RoleID="1" Star="1" StrRate="3.3" IntRate="1.5" AgiRate="1.8" />
+    <Line RoleID="1" Star="2" StrRate="6.1" IntRate="2.4" AgiRate="4.7" />
+    <Line RoleID="1" Star="2" StrRate="6.6" IntRate="2.6" AgiRate="5.1" />
+    <Line RoleID="1" Star="4" StrRate="7.1" IntRate="2.8" AgiRate="5.5" />
+    <Line RoleID="1" Star="5" StrRate="7.6" IntRate="3" AgiRate="5.9" />
+  </Data>
+</Root>

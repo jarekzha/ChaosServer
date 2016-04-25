@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<ConnectConfig>
+    <ProcID>1001</ProcID>
+    <IP></IP>
+    <Port></Port>
+    <RequestCount>50</RequestCount>
+    <IPCConfig>IPCConfig.xml</IPCConfig>
+    <GameServerProcID>1002</GameServerProcID>
+</ConnectConfig>
+

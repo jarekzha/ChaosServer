@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="Func" Type="2" />
+    <Type Name="Icon" Type="2" />
+    <Type Name="IconFrame" Type="2" />
+    <Type Name="Price" Type="0" />
+    <Type Name="SelectType" Type="0" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="普通道具1" Desc="我是普通道具1" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="2" Name="普通道具2" Desc="我是普通道具2" Func="" Icon="test_prop" IconFrame="frame" Price="200" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="3" Name="普通道具3" Desc="我是普通道具3" Func="" Icon="test_prop" IconFrame="frame" Price="300" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="4" Name="普通道具4" Desc="我是普通道具4" Func="" Icon="test_prop" IconFrame="frame" Price="400" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="5" Name="普通道具5" Desc="我是普通道具5" Func="" Icon="test_prop" IconFrame="frame" Price="500" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="6" Name="普通道具6" Desc="我是普通道具6" Func="" Icon="test_prop" IconFrame="frame" Price="600" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="7" Name="普通道具7" Desc="我是普通道具7" Func="" Icon="test_prop" IconFrame="frame" Price="700" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="8" Name="普通道具8" Desc="我是普通道具8" Func="" Icon="test_prop" IconFrame="frame" Price="800" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="9" Name="普通道具9" Desc="我是普通道具9" Func="" Icon="test_prop" IconFrame="frame" Price="900" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="10" Name="普通道具10" Desc="我是普通道具10" Func="" Icon="test_prop" IconFrame="frame" Price="1000" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="11" Name="普通道具11" Desc="我是普通道具11" Func="" Icon="test_prop" IconFrame="frame" Price="1100" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="12" Name="普通道具12" Desc="我是普通道具12" Func="" Icon="test_prop" IconFrame="frame" Price="1200" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="13" Name="普通道具13" Desc="我是普通道具13" Func="" Icon="test_prop" IconFrame="frame" Price="1300" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="14" Name="普通道具14" Desc="我是普通道具14" Func="" Icon="test_prop" IconFrame="frame" Price="1400" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="15" Name="普通道具15" Desc="我是普通道具15" Func="" Icon="test_prop" IconFrame="frame" Price="1500" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="16" Name="普通道具16" Desc="我是普通道具16" Func="" Icon="test_prop" IconFrame="frame" Price="1600" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="17" Name="普通道具17" Desc="我是普通道具17" Func="" Icon="test_prop" IconFrame="frame" Price="1700" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="18" Name="普通道具18" Desc="我是普通道具18" Func="" Icon="test_prop" IconFrame="frame" Price="1800" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="19" Name="普通道具19" Desc="我是普通道具19" Func="" Icon="test_prop" IconFrame="frame" Price="1900" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="20" Name="普通道具20" Desc="我是普通道具20" Func="" Icon="test_prop" IconFrame="frame" Price="2000" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="21" Name="普通道具21" Desc="我是普通道具21" Func="" Icon="test_prop" IconFrame="frame" Price="2100" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="22" Name="普通道具22" Desc="我是普通道具22" Func="" Icon="test_prop" IconFrame="frame" Price="2200" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="23" Name="普通道具23" Desc="我是普通道具23" Func="" Icon="test_prop" IconFrame="frame" Price="2300" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="24" Name="普通道具24" Desc="我是普通道具24" Func="" Icon="test_prop" IconFrame="frame" Price="2400" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="25" Name="普通道具25" Desc="我是普通道具25" Func="" Icon="test_prop" IconFrame="frame" Price="2500" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="26" Name="普通道具26" Desc="我是普通道具26" Func="" Icon="test_prop" IconFrame="frame" Price="2600" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="27" Name="普通道具27" Desc="我是普通道具27" Func="" Icon="test_prop" IconFrame="frame" Price="2700" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="28" Name="普通道具28" Desc="我是普通道具28" Func="" Icon="test_prop" IconFrame="frame" Price="2800" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="29" Name="普通道具29" Desc="我是普通道具29" Func="" Icon="test_prop" IconFrame="frame" Price="2900" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="30" Name="普通道具30" Desc="我是普通道具30" Func="" Icon="test_prop" IconFrame="frame" Price="3000" SelectType="1" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="31" Name="普通道具31" Desc="我是普通道具31" Func="" Icon="test_prop" IconFrame="frame" Price="3100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="32" Name="普通道具32" Desc="我是普通道具32" Func="" Icon="test_prop" IconFrame="frame" Price="3200" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="33" Name="普通道具33" Desc="我是普通道具33" Func="" Icon="test_prop" IconFrame="frame" Price="3300" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="34" Name="普通道具34" Desc="我是普通道具34" Func="" Icon="test_prop" IconFrame="frame" Price="3400" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="35" Name="普通道具35" Desc="我是普通道具35" Func="" Icon="test_prop" IconFrame="frame" Price="3500" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="36" Name="普通道具36" Desc="我是普通道具36" Func="" Icon="test_prop" IconFrame="frame" Price="3600" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="37" Name="普通道具37" Desc="我是普通道具37" Func="" Icon="test_prop" IconFrame="frame" Price="3700" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="38" Name="普通道具38" Desc="我是普通道具38" Func="" Icon="test_prop" IconFrame="frame" Price="3800" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="39" Name="普通道具39" Desc="我是普通道具39" Func="" Icon="test_prop" IconFrame="frame" Price="3900" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="40" Name="普通道具40" Desc="我是普通道具40" Func="" Icon="test_prop" IconFrame="frame" Price="4000" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="41" Name="普通道具41" Desc="我是普通道具41" Func="" Icon="test_prop" IconFrame="frame" Price="4100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="42" Name="普通道具42" Desc="我是普通道具42" Func="" Icon="test_prop" IconFrame="frame" Price="4200" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="43" Name="普通道具43" Desc="我是普通道具43" Func="" Icon="test_prop" IconFrame="frame" Price="4300" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="44" Name="普通道具44" Desc="我是普通道具44" Func="" Icon="test_prop" IconFrame="frame" Price="4400" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="45" Name="普通道具45" Desc="我是普通道具45" Func="" Icon="test_prop" IconFrame="frame" Price="4500" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="46" Name="普通道具46" Desc="我是普通道具46" Func="" Icon="test_prop" IconFrame="frame" Price="4600" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="47" Name="普通道具47" Desc="我是普通道具47" Func="" Icon="test_prop" IconFrame="frame" Price="4700" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="48" Name="普通道具48" Desc="我是普通道具48" Func="" Icon="test_prop" IconFrame="frame" Price="4800" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="49" Name="普通道具49" Desc="我是普通道具49" Func="" Icon="test_prop" IconFrame="frame" Price="4900" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="50" Name="普通道具50" Desc="我是普通道具50" Func="" Icon="test_prop" IconFrame="frame" Price="5000" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="51" Name="普通道具51" Desc="我是普通道具51" Func="" Icon="test_prop" IconFrame="frame" Price="5100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="52" Name="普通道具52" Desc="我是普通道具52" Func="" Icon="test_prop" IconFrame="frame" Price="5200" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="53" Name="普通道具53" Desc="我是普通道具53" Func="" Icon="test_prop" IconFrame="frame" Price="5300" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="54" Name="普通道具54" Desc="我是普通道具54" Func="" Icon="test_prop" IconFrame="frame" Price="5400" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="55" Name="普通道具55" Desc="我是普通道具55" Func="" Icon="test_prop" IconFrame="frame" Price="5500" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="56" Name="普通道具56" Desc="我是普通道具56" Func="" Icon="test_prop" IconFrame="frame" Price="5600" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="57" Name="普通道具57" Desc="我是普通道具57" Func="" Icon="test_prop" IconFrame="frame" Price="5700" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="58" Name="普通道具58" Desc="我是普通道具58" Func="" Icon="test_prop" IconFrame="frame" Price="5800" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="59" Name="普通道具59" Desc="我是普通道具59" Func="" Icon="test_prop" IconFrame="frame" Price="5900" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="60" Name="普通道具60" Desc="我是普通道具60" Func="" Icon="test_prop" IconFrame="frame" Price="6000" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="61" Name="普通道具61" Desc="我是普通道具61" Func="" Icon="test_prop" IconFrame="frame" Price="6100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="62" Name="普通道具62" Desc="我是普通道具62" Func="" Icon="test_prop" IconFrame="frame" Price="6200" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="101" Name="许褚灵魂石" Desc="5个合成许褚" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="102" Name="黄忠灵魂石" Desc="10个合成黄忠" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="103" Name="赵云灵魂石" Desc="10个合成赵云" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="104" Name="司马懿灵魂石" Desc="10个合成司马懿" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="105" Name="小乔灵魂石" Desc="10个合成小乔" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+    <Line ID="201" Name="伤血军师技能书" Desc="20个合成伤血技能" Func="" Icon="test_prop" IconFrame="frame" Price="100" SelectType="2" Type="1" Param1="" Param2="" Param3="" />
+  </Data>
+</Root>

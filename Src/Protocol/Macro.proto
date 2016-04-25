@@ -1,0 +1,146 @@
+
+//////////////////////////////// MACRO ID DEFINE ////////////////////////////////
+
+/*
+ * 错误消息
+ */
+enum MsgErrorID
+{
+    MSG_ERROR_UNDEFINE                      = 1;    // 未知错误
+    MSG_ERROR_NO_DATA                       = 2;    // 无数据
+    MSG_ERROR_KICKOUT                       = 3;    // 被踢下线
+    MSG_ERROR_INVALID_DATA                  = 4;    // 无效数据
+    MSG_ERROR_INVALID_SEQUENCE              = 5;    // 无效序列号
+    MSG_ERROR_INVALID_SESSION               = 6;    // 无效会话
+    MSG_ERROR_WAIT_DATA_TIMEOUT             = 7;    // 等待数据超时
+    MSG_ERROR_TOO_MUCH_REQUEST              = 8;    // 请求过多
+    MSG_ERROR_INVALID_OPERATIOIN            = 9;    // 无效操作
+    MSG_ERROR_NENOUGH_SOULFRAGMENT			= 10;	// 將魂不足
+    MSG_ERROR_WEAREQUIP_INVALID_SLOTIDX		= 11;	// 穿装备异常槽位idx
+    MSG_ERROR_WEAREQUIP_LEVEL_LIMIT			= 12;	// 穿装备等级不够
+    MSG_ERROR_WEAREQUIP_NEXIST				= 13;	// 穿戴装备，装备不存在
+    MSG_ERROR_WEAREQUIP_EXIST				= 14;	// 传装备，已穿戴
+    MSG_ERROR_MONEY_NOT_ENOUGH              = 15;   // 钱不够
+}
+
+/*
+ * 背包类型
+ */
+enum BagType
+{
+    BAG_TYPE_INVALID            = 0;    // 无效类型
+    BAG_TYPE_HERO               = 1;    // 英雄背包
+    BAG_TYPE_COMMON             = 2;    // 通用背包
+    BAG_TYPE_FRAGMENT           = 3;    // 碎片背包
+    BAG_TYPE_ADVISER_SKILL      = 4;    // 军师技能背包
+}
+
+/*
+ * 背包物品类型
+ */
+enum BagItemType
+{
+    BAG_ITEM_TYPE_INVALID       = 0;    // 无效类型
+    BAG_ITEM_TYPE_HERO          = 1;    // 英雄
+    BAG_ITEM_TYPE_EQUIPMENT     = 2;    // 装备
+    BAG_ITEM_TYPE_PROP          = 3;    // 道具
+    BAG_ITEM_TYPE_FRAGMENT      = 4;    // 碎片
+    BAG_ITEM_TYPE_ADVISER_SKILL = 5;    // 军师技能
+}
+
+/*
+ * 角色属性类型
+ */
+enum PlayerAttrType
+{
+    PLAYER_ATTR_TYPE_GAME_MONEY     = 0;        // 游戏币
+    PLAYER_ATTR_TYPE_RMB            = 1;        // 充值后兑换的货
+    PLAYER_ATTR_TYPE_CUR_ENERGY     = 2;        // 当前能量
+    PLAYER_ATTR_TYPE_MAX_ENERGY     = 3;        // 最大能量
+    PLAYER_ATTR_TYPE_EXP            = 4;        // 经验值
+    PLAYER_ATTR_TYPE_LEVEL          = 5;        // 等级
+}
+
+/*
+ * 英雄经验
+ */
+enum HeroAttrType
+{
+    HERO_ATTR_TYPE_STAR             = 0;        // 武将星级
+    HERO_ATTR_TYPE_LEVEL            = 1;        // 武将等级
+    HERO_ATTR_TYPE_EXP              = 2;        // 武将经验
+    HERO_ATTR_TYPE_QUALITY          = 3;        // 品质[白-绿-蓝-紫-橙]
+}
+
+/*
+* 商城类型
+*/
+enum MallType
+{
+    MALL_TYPE_COMMON                = 1;        // 普通商城
+}
+
+/*
+* 抽奖类型定义
+*/
+enum LotteryType
+{
+    QINTMENT_COIN_SINGLE_LOTTERY    = 1;        // 药膏金币单次购买
+    QINTMENT_COIN_MULTI_LOTTERY     = 2;        // 药膏金币多次购买
+    CHEESE_DIAMOND_SINGLE_LOTTERY   = 3;        // 奶酪钻石单次购买
+    CHESSE_DIAMOND_MULTI_LOTTERY    = 4;        // 奶酪钻石多次购买
+}
+
+/*
+* 邮件类型定义
+*/
+enum MailType
+{
+    MAIL_TYPE_INVALID       = 1;        // 未知类型
+    MAIL_TYPE_SYS_NOTICE    = 2;        // 系统公告
+    MAIL_TYPE_ITEM_GIFT     = 3;        // 物品赠送
+}
+
+/*
+* 邮件附件类型
+*/
+enum MailItemType
+{
+    MAIL_ITEM_TYPE_BAGITEM  = 0;        // 物品、道具、装备
+    MAIL_ITEM_TYPE_EXP      = 1;        // 经验
+    MAIL_ITEM_TYPE_COIN     = 2;        // 金币
+    MAIL_ITEM_TYPE_DIAMOND  = 3;        // 钻石
+    MAIL_ITEM_TYPE_MAX      = 4;        // 附件类型最大限制
+}
+
+/*
+* 邮件优先级
+*/
+enum MailPriority
+{
+    MAIL_PRIORITY_LOW       = 1;        // 低优先级-可删除
+    MAIL_PRIORITY_NORMAL    = 2;        // 正常优先级
+    MAIL_PRIORITY_HIGH      = 3;        // 高优先级
+}
+
+/*
+* 邮件操作类型定义
+*/
+enum MailOperation
+{
+    MAIL_OP_CONFIRM         = 0;        // 邮件已读确认
+    MAIL_OP_DEL             = 1;        // 邮件删除
+    MAIL_OP_PICKUP          = 2;        // 物品提取
+    MAIL_OP_MAX             = 3;        // 操作类型最大限制
+}
+
+/*
+* 兑换类型定义
+*/
+enum ExchangeType
+{
+    EXCHANGE_TYPE_GAME_MONEY    = 0;    // 通过钻石兑换游戏币
+    EXCHANGE_TYPE_ENERGY        = 1;    // 通过钻石兑换体力
+    EXCHANGE_TYPE_MAX           = 3;    // 兑换类型限制
+}
+

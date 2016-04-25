@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<GameServerConfig>
+	<!-- logic server common -->
+    <ProcID>1002</ProcID>
+    <IPCConfig>IPCConfig.xml</IPCConfig>
+    <TimerWheelNum>4</TimerWheelNum>
+    <TimerBucketNumPerWheel>100</TimerBucketNumPerWheel>
+    <TimerMSecondPerTick>100</TimerMSecondPerTick>
+	
+	<!-- GameServer -->
+    <ConnectorProcID>1001</ConnectorProcID>
+    <GMConnectorProcID>1004</GMConnectorProcID>
+    <DBProxyProcID>1003</DBProxyProcID>
+    <GameDataPath>../GameData</GameDataPath>
+    <PlayerSaveIntervalSecond>60</PlayerSaveIntervalSecond>
+    <PlayerActiveSecond>180</PlayerActiveSecond>
+    <SessionActiveSecond>86400</SessionActiveSecond>
+</GameServerConfig>
+

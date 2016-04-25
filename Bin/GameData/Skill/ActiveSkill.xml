@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="BaseType" Type="0" />
+    <Type Name="AddBuffID1" Type="0" />
+    <Type Name="AddBuffID2" Type="0" />
+    <Type Name="AddBuffID3" Type="0" />
+    <Type Name="DistanceID" Type="0" />
+    <Type Name="RangeID" Type="0" />
+    <Type Name="ShowRangeType" Type="0" />
+    <Type Name="MaxTargetNum" Type="0" />
+    <Type Name="FilterCount" Type="0" />
+    <Type Name="Filter1" Type="0" />
+    <Type Name="Filter2" Type="0" />
+    <Type Name="Filter3" Type="0" />
+    <Type Name="IsBehitAct" Type="3" />
+    <Type Name="AttackShowID" Type="0" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="PreShakeEffect" Type="2" />
+    <Type Name="ActiveEffectPosInSelf" Type="3" />
+    <Type Name="AboveRoleActiveEffect" Type="2" />
+    <Type Name="UnderRoleActiveEffect" Type="2" />
+    <Type Name="AboveRolePassiveEffect" Type="2" />
+    <Type Name="UnderRolePassiveEffect" Type="2" />
+    <Type Name="EffectCount" Type="0" />
+    <Type Name="Effect1" Type="0" />
+    <Type Name="Effect2" Type="0" />
+    <Type Name="Effect3" Type="0" />
+    <Type Name="Effect4" Type="0" />
+    <Type Name="Effect5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="近程普通攻击" Desc="近程普通攻击" BaseType="1" AddBuffID1="" AddBuffID2="" AddBuffID3="" DistanceID="6" RangeID="1" ShowRangeType="0" MaxTargetNum="3" FilterCount="1" Filter1="1" Filter2="" Filter3="" IsBehitAct="Y" AttackShowID="1" ResName="" PreShakeEffect="" ActiveEffectPosInSelf="Y" AboveRoleActiveEffect="" UnderRoleActiveEffect="" AboveRolePassiveEffect="art/ani/effect/behit/commonbehit/commonbehit.ExportJson" UnderRolePassiveEffect="" EffectCount="1" Effect1="101" Effect2="103" Effect3="" Effect4="" Effect5="" />
+    <Line ID="2" Name="大招" Desc="大招" BaseType="1" AddBuffID1="" AddBuffID2="" AddBuffID3="" DistanceID="6" RangeID="1" ShowRangeType="2" MaxTargetNum="3" FilterCount="1" Filter1="1" Filter2="" Filter3="" IsBehitAct="Y" AttackShowID="1" ResName="" PreShakeEffect="art/cocos/ani_skill_juguang.ExportJson" ActiveEffectPosInSelf="Y" AboveRoleActiveEffect="" UnderRoleActiveEffect="" AboveRolePassiveEffect="art/ani/effect/behit/commonbehit/commonbehit.ExportJson" UnderRolePassiveEffect="" EffectCount="1" Effect1="101" Effect2="103" Effect3="" Effect4="" Effect5="" />
+    <Line ID="3" Name="远程普通攻击" Desc="远程普通攻击" BaseType="1" AddBuffID1="" AddBuffID2="" AddBuffID3="" DistanceID="4" RangeID="1" ShowRangeType="0" MaxTargetNum="3" FilterCount="1" Filter1="1" Filter2="" Filter3="" IsBehitAct="Y" AttackShowID="1" ResName="" PreShakeEffect="" ActiveEffectPosInSelf="Y" AboveRoleActiveEffect="" UnderRoleActiveEffect="" AboveRolePassiveEffect="art/ani/effect/behit/commonbehit/commonbehit.ExportJson" UnderRolePassiveEffect="" EffectCount="1" Effect1="101" Effect2="103" Effect3="" Effect4="" Effect5="" />
+  </Data>
+</Root>

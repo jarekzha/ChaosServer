@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Position" Type="0" />
+    <Type Name="Job" Type="0" />
+    <Type Name="BaseAttr" Type="0" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="AniName" Type="2" />
+    <Type Name="Star" Type="0" />
+    <Type Name="Level" Type="0" />
+    <Type Name="Quality" Type="0" />
+    <Type Name="AttackID" Type="0" />
+    <Type Name="Skill1ID" Type="0" />
+    <Type Name="Skill1Type" Type="0" />
+    <Type Name="Skill1ActionName" Type="2" />
+    <Type Name="Skill2ID" Type="0" />
+    <Type Name="Skill2Type" Type="0" />
+    <Type Name="Skill2ActionName" Type="2" />
+    <Type Name="Skill3ID" Type="0" />
+    <Type Name="Skill3Type" Type="0" />
+    <Type Name="Skill3ActionName" Type="2" />
+    <Type Name="Skill4ID" Type="0" />
+    <Type Name="Skill4Type" Type="0" />
+    <Type Name="Skill4ActionName" Type="2" />
+    <Type Name="Health" Type="0" />
+    <Type Name="Attack" Type="0" />
+    <Type Name="Magic" Type="0" />
+    <Type Name="Defend" Type="0" />
+    <Type Name="Resis" Type="0" />
+    <Type Name="Heal" Type="0" />
+    <Type Name="Rage" Type="0" />
+    <Type Name="HitRate" Type="0" />
+    <Type Name="Dodge" Type="0" />
+    <Type Name="CritRate" Type="0" />
+    <Type Name="CritDamageRate" Type="0" />
+    <Type Name="ResilientRate" Type="0" />
+    <Type Name="CounterRate" Type="0" />
+    <Type Name="CounterDamageRate" Type="0" />
+    <Type Name="RestoreHP" Type="0" />
+    <Type Name="RestoreRage" Type="0" />
+    <Type Name="Suck" Type="0" />
+    <Type Name="Speed" Type="0" />
+    <Type Name="Move" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="普刀" Type="2" Position="1" Job="2" BaseAttr="3" ResName="lvbu" AniName="lvbu" Star="3" Level="1" Quality="1" AttackID="1" Skill1ID="" Skill1Type="" Skill1ActionName="" Skill2ID="" Skill2Type="" Skill2ActionName="" Skill3ID="" Skill3Type="" Skill3ActionName="" Skill4ID="" Skill4Type="" Skill4ActionName="" Health="12100" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="8" Move="2" />
+    <Line ID="2" Name="普刀" Type="2" Position="1" Job="2" BaseAttr="3" ResName="zhangfei" AniName="zhangfei" Star="3" Level="1" Quality="1" AttackID="1" Skill1ID="" Skill1Type="" Skill1ActionName="" Skill2ID="" Skill2Type="" Skill2ActionName="" Skill3ID="" Skill3Type="" Skill3ActionName="" Skill4ID="" Skill4Type="" Skill4ActionName="" Health="12100" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="8" Move="2" />
+    <Line ID="3" Name="普刀" Type="2" Position="1" Job="2" BaseAttr="3" ResName="dengai" AniName="dengai" Star="3" Level="1" Quality="1" AttackID="1" Skill1ID="" Skill1Type="" Skill1ActionName="" Skill2ID="" Skill2Type="" Skill2ActionName="" Skill3ID="" Skill3Type="" Skill3ActionName="" Skill4ID="" Skill4Type="" Skill4ActionName="" Health="12100" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="8" Move="2" />
+  </Data>
+</Root>

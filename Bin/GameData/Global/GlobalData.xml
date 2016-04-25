@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="RoleLevelLimit" Type="0" />
+    <Type Name="NormalDungeonPlayerExp" Type="0" />
+    <Type Name="EliteDungeonPlayerExp" Type="0" />
+    <Type Name="ComMallActiveLevel" Type="0" />
+    <Type Name="MallUpd1" Type="0" />
+    <Type Name="MallUpd2" Type="0" />
+    <Type Name="MallUpd3" Type="0" />
+    <Type Name="MallUpd4" Type="0" />
+    <Type Name="HeroEvolutionPropNum1" Type="0" />
+    <Type Name="HeroEvolutionPropNum2" Type="0" />
+    <Type Name="HeroEvolutionPropNum3" Type="0" />
+    <Type Name="HeroEvolutionPropNum4" Type="0" />
+    <Type Name="AdviserSkillEvolutionPropNum1" Type="0" />
+    <Type Name="AdviserSkillEvolutionPropNum2" Type="0" />
+    <Type Name="AdviserSkillEvolutionPropNum3" Type="0" />
+    <Type Name="AdviserSkillEvolutionPropNum4" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line RoleLevelLimit="90" NormalDungeonPlayerExp="6" EliteDungeonPlayerExp="12" ComMallActiveLevel="1" MallUpd1="9" MallUpd2="12" MallUpd3="18" MallUpd4="21" HeroEvolutionPropNum1="20" HeroEvolutionPropNum2="50" HeroEvolutionPropNum3="100" HeroEvolutionPropNum4="200" AdviserSkillEvolutionPropNum1="20" AdviserSkillEvolutionPropNum2="50" AdviserSkillEvolutionPropNum3="100" AdviserSkillEvolutionPropNum4="200" />
+  </Data>
+</Root>

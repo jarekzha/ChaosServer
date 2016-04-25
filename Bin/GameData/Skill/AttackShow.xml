@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Url" Type="2" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+    <Type Name="Param4" Type="0" />
+    <Type Name="Param5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Type="1" Url="" Param1="0" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="2" Type="2" Url="art/ani/effect/item/bulet/bulet.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="3" Type="3" Url="art/ani/effect/item/LineSkill/LineSkill.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="4" Type="2" Url="art/cocos/ani_skill_feixingbingqiu.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="5" Type="2" Url="art/cocos/ani_skill_huangzhong_attack_jian.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="6" Type="2" Url="art/cocos/ani_skill_huangzhong_skill_jian.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="7" Type="2" Url="art/cocos/ani_skill_xiaoqiao_guangqiu.ExportJson" Param1="700" Param2="" Param3="" Param4="" Param5="" />
+    <Line ID="8" Type="2" Url="art/cocos/ani_skill_dengaifeiqiang.ExportJson" Param1="1000" Param2="" Param3="" Param4="" Param5="" />
+  </Data>
+</Root>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="Func" Type="2" />
+    <Type Name="Icon" Type="2" />
+    <Type Name="IconFrame" Type="2" />
+    <Type Name="Price" Type="0" />
+    <Type Name="LevelLimit" Type="0" />
+    <Type Name="AdditionType1" Type="0" />
+    <Type Name="AdditionValue1" Type="0" />
+    <Type Name="AdditionType2" Type="0" />
+    <Type Name="AdditionValue2" Type="0" />
+    <Type Name="AdditionType3" Type="0" />
+    <Type Name="AdditionValue3" Type="0" />
+    <Type Name="AdditionType4" Type="0" />
+    <Type Name="AdditionValue4" Type="0" />
+    <Type Name="AdditionType5" Type="0" />
+    <Type Name="AdditionValue5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="sword" Desc="sword" Func="" Icon="test_prop_green" IconFrame="frame" Price="" LevelLimit="1" AdditionType1="1" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+    <Line ID="2" Name="风杖" Desc="臭流氓！不许抬头！" Func="智力+16\n能量回复+90\n忽视魔法抗性+5点" Icon="test_prop_blue" IconFrame="frame" Price="6100" LevelLimit="5" AdditionType1="2" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+    <Line ID="3" Name="tshirt" Desc="tshirt" Func="" Icon="test_prop_red" IconFrame="frame" Price="" LevelLimit="5" AdditionType1="3" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+    <Line ID="4" Name="coat" Desc="coat" Func="" Icon="test_prop_green" IconFrame="frame" Price="" LevelLimit="5" AdditionType1="4" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+    <Line ID="5" Name="hat" Desc="hat" Func="" Icon="test_prop_green" IconFrame="frame" Price="" LevelLimit="99" AdditionType1="5" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+    <Line ID="6" Name="shoes" Desc="shoes" Func="" Icon="test_prop_green" IconFrame="frame" Price="" LevelLimit="5" AdditionType1="6" AdditionValue1="10" AdditionType2="4" AdditionValue2="100" AdditionType3="" AdditionValue3="" AdditionType4="" AdditionValue4="" AdditionType5="" AdditionValue5="" />
+  </Data>
+</Root>

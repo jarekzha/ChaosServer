@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="BuffID1" Type="0" />
+    <Type Name="BuffID2" Type="0" />
+    <Type Name="BuffID3" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="张飞被动" BuffID1="" BuffID2="" BuffID3="" />
+  </Data>
+</Root>

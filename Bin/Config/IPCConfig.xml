@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<IPCConfig>
+    <NamePrefix>hgame</NamePrefix>
+
+<!-- Connector to GameSvr -->    
+    <Channel>
+        <Proc1>1001</Proc1>
+        <Proc2>1002</Proc2>
+        <Channel1to2Size>200</Channel1to2Size>
+        <Channel2to1Size>200</Channel2to1Size>
+    </Channel>
+
+<!-- GameSvr to DBProxy -->
+    <Channel>
+        <Proc1>1002</Proc1>
+        <Proc2>1003</Proc2>
+        <Channel1to2Size>200</Channel1to2Size>
+        <Channel2to1Size>200</Channel2to1Size>
+    </Channel>
+
+<!-- GMConnector to GameSvr -->
+    <Channel>
+        <Proc1>1004</Proc1>
+        <Proc2>1002</Proc2>
+        <Channel1to2Size>200</Channel1to2Size>
+        <Channel2to1Size>200</Channel2to1Size>
+    </Channel>
+</IPCConfig>

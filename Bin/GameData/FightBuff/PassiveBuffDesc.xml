@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="IsTimer" Type="3" />
+    <Type Name="ParamCount" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="2011" IsTimer="Y" ParamCount="3" />
+    <Line ID="2021" IsTimer="N" ParamCount="4" />
+    <Line ID="2022" IsTimer="N" ParamCount="4" />
+  </Data>
+</Root>

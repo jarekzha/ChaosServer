@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="GameMoney" Type="0" />
+    <Type Name="RMB" Type="0" />
+    <Type Name="DropItem1Type" Type="0" />
+    <Type Name="DropItem1ResID" Type="0" />
+    <Type Name="DropItem1Count" Type="0" />
+    <Type Name="DropItem2Type" Type="0" />
+    <Type Name="DropItem2ResID" Type="0" />
+    <Type Name="DropItem2Count" Type="0" />
+    <Type Name="DropItem3Type" Type="0" />
+    <Type Name="DropItem3ResID" Type="0" />
+    <Type Name="DropItem3Count" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" GameMoney="0" RMB="0" DropItem1Type="1" DropItem1ResID="3" DropItem1Count="1" DropItem2Type="" DropItem2ResID="" DropItem2Count="" DropItem3Type="" DropItem3ResID="" DropItem3Count="" />
+  </Data>
+</Root>

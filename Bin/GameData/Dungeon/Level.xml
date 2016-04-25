@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="Icon" Type="2" />
+    <Type Name="LevelLimit" Type="0" />
+    <Type Name="Cost" Type="0" />
+    <Type Name="LevelType" Type="0" />
+    <Type Name="DungeonID" Type="0" />
+    <Type Name="PageID" Type="0" />
+    <Type Name="DramaID" Type="0" />
+    <Type Name="LevelResName" Type="2" />
+    <Type Name="Scene" Type="2" />
+    <Type Name="HeroTotalExp" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="关卡一" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_0.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level1" Scene="art/scene/fight/map/fight001/fight001.sce" HeroTotalExp="10" />
+    <Line ID="2" Name="关卡二" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_1.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level2" Scene="art/scene/fight/map/fight001/fight002.sce" HeroTotalExp="10" />
+    <Line ID="3" Name="关卡三" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_2.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level3" Scene="art/scene/fight/map/fight001/fight003.sce" HeroTotalExp="10" />
+    <Line ID="4" Name="关卡四" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_3.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level4" Scene="art/scene/fight/map/fight001/fight004.sce" HeroTotalExp="10" />
+    <Line ID="5" Name="关卡五" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_4.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level5" Scene="art/scene/fight/map/fight001/fight005.sce" HeroTotalExp="10" />
+    <Line ID="6" Name="关卡六" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_5.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level6" Scene="art/scene/fight/map/fight001/fight006.sce" HeroTotalExp="10" />
+    <Line ID="7" Name="关卡七" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_6.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level7" Scene="art/scene/fight/map/fight001/fight007.sce" HeroTotalExp="10" />
+    <Line ID="8" Name="关卡八" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_7.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level8" Scene="art/scene/fight/map/fight001/fight008.sce" HeroTotalExp="10" />
+    <Line ID="9" Name="关卡九" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_8.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level9" Scene="art/scene/fight/map/fight001/fight009.sce" HeroTotalExp="10" />
+    <Line ID="10" Name="关卡十" Desc="你永远不知道一场战斗谁是最后的赢者" Icon="art/image/level/prop_take/wptj_9.png" LevelLimit="0" Cost="6" LevelType="1" DungeonID="1" PageID="1" DramaID="1" LevelResName="level10" Scene="art/scene/fight/map/fight001/fight010.sce" HeroTotalExp="10" />
+  </Data>
+</Root>

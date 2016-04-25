@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Func" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="Icon" Type="2" />
+    <Type Name="IconFrame" Type="2" />
+    <Type Name="Price" Type="0" />
+    <Type Name="ComposeCount" Type="0" />
+    <Type Name="ComposeItemType" Type="0" />
+    <Type Name="ComposeItemID" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="2" Name="knife的碎片" Func="" Desc="~~~~~" Icon="test_prop_blue" IconFrame="frame" Price="" ComposeCount="3" ComposeItemType="2" ComposeItemID="2" />
+  </Data>
+</Root>

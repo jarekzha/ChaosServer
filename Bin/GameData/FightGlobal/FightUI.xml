@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="BloodUIHeight" Type="0" />
+    <Type Name="NumUIHeight" Type="0" />
+    <Type Name="CritUIHeight" Type="0" />
+    <Type Name="DodgeUIHeight" Type="0" />
+    <Type Name="CounterUIHeight" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line BloodUIHeight="100" NumUIHeight="60" CritUIHeight="165" DodgeUIHeight="120" CounterUIHeight="120" />
+  </Data>
+</Root>

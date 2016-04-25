@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="Effect" Type="2" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Trigger" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+    <Type Name="Param4" Type="0" />
+    <Type Name="Param5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="格挡" ResName="" Effect="art/cocos/ani_buff_gedang.ExportJson" Type="1011" Trigger="1" Param1="10000" Param2="120" Param3="" Param4="" Param5="" />
+    <Line ID="2" Name="邪灵汲取" ResName="art/image/skill/name/xielingshequ.png" Effect="" Type="1041" Trigger="1" Param1="10000" Param2="20" Param3="" Param4="" Param5="" />
+    <Line ID="3" Name="暴击" ResName="" Effect="" Type="1015" Trigger="6" Param1="5000" Param2="120" Param3="" Param4="" Param5="" />
+    <Line ID="4" Name="狂热" ResName="" Effect="art/cocos/ani_buff_kuangre.ExportJson" Type="1031" Trigger="3" Param1="1" Param2="101" Param3="" Param4="" Param5="" />
+    <Line ID="5" Name="乘胜追击" ResName="art/image/skill/name/chenshengzuiji.png" Effect="" Type="1015" Trigger="11" Param1="10000" Param2="90" Param3="" Param4="" Param5="" />
+    <Line ID="6" Name="免疫" ResName="art/image/skill/name/mianyi.png" Effect="" Type="1014" Trigger="2" Param1="10000" Param2="" Param3="" Param4="" Param5="" />
+  </Data>
+</Root>

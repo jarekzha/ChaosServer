@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="LotteryType" Type="0" />
+    <Type Name="ItemType" Type="0" />
+    <Type Name="ItemID" Type="0" />
+    <Type Name="Count" Type="0" />
+    <Type Name="MoneyType" Type="0" />
+    <Type Name="Price" Type="0" />
+    <Type Name="FreeTimes" Type="0" />
+    <Type Name="TimeInterval" Type="0" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="Rebate" Type="1" />
+  </TypeMeta>
+  <Data>
+    <Line LotteryType="1" ItemType="2" ItemID="1" Count="1" MoneyType="1" Price="100" FreeTimes="5" TimeInterval="540" Desc="游戏币抽一次" Rebate="1" />
+    <Line LotteryType="2" ItemType="2" ItemID="1" Count="10" MoneyType="1" Price="1000" FreeTimes="0" TimeInterval="0" Desc="游戏币抽十次" Rebate="0.9" />
+    <Line LotteryType="3" ItemType="2" ItemID="2" Count="1" MoneyType="2" Price="100" FreeTimes="1" TimeInterval="14400000" Desc="RMB抽一次" Rebate="1" />
+    <Line LotteryType="4" ItemType="2" ItemID="2" Count="10" MoneyType="2" Price="1000" FreeTimes="0" TimeInterval="0" Desc="RMB抽十次" Rebate="0.9" />
+  </Data>
+</Root>

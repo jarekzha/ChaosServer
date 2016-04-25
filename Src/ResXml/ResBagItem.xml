@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+<metalib tagsetversion="1" name="" version="1" >
+	<struct name="ResBagItem" version="1">
+        <entry name="ID"        type="uint32"   cname="ID"  desc="ID"/>
+        <entry name="Type"      type="uint8"    cname="物品类型" desc="物品类型"/>
+        <entry name="PriceType" type="uint8"    cname="货币类型" desc="物品类型"/>
+        <entry name="SellPrice" type="uint32"   cname="出售价格" desc="出售价格"/>
+	</struct>
+</metalib>
+

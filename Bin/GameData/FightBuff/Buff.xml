@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="BaseType" Type="0" />
+    <Type Name="SubType" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="StackCount" Type="0" />
+    <Type Name="SustainRound" Type="0" />
+    <Type Name="RemoveTrigger" Type="0" />
+    <Type Name="Action1" Type="0" />
+    <Type Name="Action2" Type="0" />
+    <Type Name="Action3" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" BaseType="3" SubType="0" Name="加攻" Desc="普攻攻击时100%几率增加20%攻击力，3回合或者被普通攻击时移除" StackCount="1" SustainRound="3" RemoveTrigger="2" Action1="1" Action2="" Action3="" />
+    <Line ID="2" BaseType="4" SubType="3" Name="嘲讽" Desc="嘲讽" StackCount="1" SustainRound="3" RemoveTrigger="0" Action1="2" Action2="" Action3="" />
+  </Data>
+</Root>

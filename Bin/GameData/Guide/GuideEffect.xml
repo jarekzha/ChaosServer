@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="IsForce" Type="3" />
+    <Type Name="Animation1Type" Type="0" />
+    <Type Name="Animation1X" Type="0" />
+    <Type Name="Animation1Y" Type="0" />
+    <Type Name="Animation1Width" Type="0" />
+    <Type Name="Animation1Height" Type="0" />
+    <Type Name="Animation1NodeName" Type="2" />
+    <Type Name="Animation1AreaUrl" Type="2" />
+    <Type Name="Animation1Desc" Type="2" />
+    <Type Name="Animation2Type" Type="0" />
+    <Type Name="Animation2X" Type="0" />
+    <Type Name="Animation2Y" Type="0" />
+    <Type Name="Animation2Width" Type="0" />
+    <Type Name="Animation2Height" Type="0" />
+    <Type Name="Animation2NodeName" Type="2" />
+    <Type Name="Animation2AreaUrl" Type="2" />
+    <Type Name="Animation2Desc" Type="2" />
+    <Type Name="Animation3Type" Type="0" />
+    <Type Name="Animation3X" Type="0" />
+    <Type Name="Animation3Y" Type="0" />
+    <Type Name="Animation3Width" Type="0" />
+    <Type Name="Animation3Height" Type="0" />
+    <Type Name="Animation3NodeName" Type="2" />
+    <Type Name="Animation3AreaUrl" Type="2" />
+    <Type Name="Animation3Desc" Type="2" />
+    <Type Name="Animation4Type" Type="0" />
+    <Type Name="Animation4X" Type="0" />
+    <Type Name="Animation4Y" Type="0" />
+    <Type Name="Animation4Width" Type="0" />
+    <Type Name="Animation4Height" Type="0" />
+    <Type Name="Animation4NodeName" Type="2" />
+    <Type Name="Animation4AreaUrl" Type="2" />
+    <Type Name="Animation4Desc" Type="2" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" IsForce="Y" Animation1Type="1" Animation1X="500" Animation1Y="300" Animation1Width="120" Animation1Height="120" Animation1NodeName="ui_popwindow" Animation1AreaUrl="own_panel/touch_panel" Animation1Desc="" Animation2Type="" Animation2X="" Animation2Y="" Animation2Width="" Animation2Height="" Animation2NodeName="" Animation2AreaUrl="" Animation2Desc="" Animation3Type="" Animation3X="" Animation3Y="" Animation3Width="" Animation3Height="" Animation3NodeName="" Animation3AreaUrl="" Animation3Desc="" Animation4Type="" Animation4X="" Animation4Y="" Animation4Width="" Animation4Height="" Animation4NodeName="" Animation4AreaUrl="" Animation4Desc="" />
+    <Line ID="2" IsForce="Y" Animation1Type="1" Animation1X="500" Animation1Y="300" Animation1Width="120" Animation1Height="120" Animation1NodeName="ui_city" Animation1AreaUrl="main_layer/building_campaign" Animation1Desc="" Animation2Type="2" Animation2X="800" Animation2Y="400" Animation2Width="" Animation2Height="" Animation2NodeName="ui_city" Animation2AreaUrl="" Animation2Desc="大侠快跑………" Animation3Type="" Animation3X="" Animation3Y="" Animation3Width="" Animation3Height="" Animation3NodeName="" Animation3AreaUrl="" Animation3Desc="" Animation4Type="" Animation4X="" Animation4Y="" Animation4Width="" Animation4Height="" Animation4NodeName="" Animation4AreaUrl="" Animation4Desc="" />
+  </Data>
+</Root>

@@ -1,0 +1,85 @@
+//////////////////////////////// MSG ID DEFINE ////////////////////////////////
+/*
+ * 消息ID定义
+ * REQ Request 请求 C->S
+ * RSP = Response 回应 S->C
+ * REP = Report 报告 C->S
+ * NTF = Notify 通知 S->C
+ */
+enum MsgID
+{
+    // [C <-> S] message [1 - 10000]-------
+    CS_MSG_LOGIN_REQ                        = 1;        // 登录请求，初始化会话信息
+    CS_MSG_LOGIN_RSP                        = 2;        // 登录回应
+    CS_MSG_GET_PLAYER_DATA_REQ              = 3;        // 获取玩家数据
+    CS_MSG_GET_PLAYER_DATA_RSP              = 4;        // 获取玩家数据应答
+    CS_MSG_LOGOUT_REQ                       = 5;        // 退出请求
+    CS_MSG_LOGOUT_RSP                       = 6;        // 退出回应
+    CS_MSG_ERROR_NTF                        = 7;        // 错误消息
+    CS_MSG_START_CHALLENGE_LEVEL_REQ        = 8;        // 开始挑战关卡请求
+    CS_MSG_START_CHALLENGE_LEVEL_RSP        = 9;        // 开始挑战关卡回应
+    CS_MSG_FINISH_CHALLENGE_LEVEL_REQ       = 10;       // 结束挑战关卡请求
+    CS_MSG_FINISH_CHALLENGE_LEVEL_RSP       = 11;       // 结束挑战关卡回应
+    CS_MSG_BAG_ITEM_ADD_NTF                 = 12;       // 背包物品添加通知
+    CS_MSG_BAG_ITEM_REMOVE_NTF              = 13;       // 背包物品移除通知
+    CS_MSG_HERO_UPGRADE_REQ                 = 14;       // 英雄进阶请求
+    CS_MSG_HERO_UPGRADE_RSP                 = 15;       // 英雄进阶响应
+    CS_MSG_HERO_EVOLUTION_REQ               = 16;       // 英雄进化请求
+    CS_MSG_HERO_EVOLUTION_RSP               = 17;       // 英雄进化响应
+    CS_MSG_HERO_WEAR_EQUIPMENT_REQ          = 18;       // 穿戴装备请求
+    CS_MSG_HERO_WEAR_EQUIPMENT_RSP          = 19;       // 穿戴装备响应
+    CS_MSG_CHG_DCRYPTKEY_NTF                = 20;       // 通知client修改解密key
+    CS_MSG_PLAYER_ATTR_CHANGE_NTF           = 21;       // 通知角色属性变化
+    CS_MSG_HERO_ATTR_CHANGE_NTF             = 22;       // 通知英雄属性变化
+    CS_MSG_SELL_ITEM_REQ                    = 23;       // 出售物品请求
+    CS_MSG_SELL_ITEM_RSP                    = 24;       // 出售物品应答
+    CS_MSG_HERO_SKILL_UPGRADE_REQ           = 25;       // 技能升级请求
+    CS_MSG_HERO_SKILL_UPGRADE_RSP           = 26;       // 技能升级响应
+    CS_MSG_EQUIPMENT_COMPOSE_REQ            = 27;       // 装备合成请求
+    CS_MSG_EQUIPMENT_COMPOSE_RSP            = 28;       // 装备合成响应
+    CS_MSG_FRAGMENT_COMPOSE_REQ             = 29;       // 碎片合成请求
+    CS_MSG_FRAGMENT_COMPOSE_RSP             = 30;       // 碎片合成响应
+    CS_MSG_BUY_ITEM_REQ                     = 31;       // 购买物品请求
+    CS_MSG_BUY_ITEM_RSP                     = 32;       // 购买物品响应
+    CS_MSG_UPDATE_MALL_NTF                  = 33;       // 更新商店商品通知
+    CS_MSG_DEL_MALL_GOODS_NTF               = 34;       // 删除商店商品通知
+    CS_MSG_ASK_UPDATE_MALL_REQ              = 35;       // 请求更新商店物品请求
+    CS_MSG_ASK_UPDATE_MALL_RSP              = 36;       // 请求更新商店物品响应
+    CS_MSG_LOTTERY_REQ                      = 37;       // 抽奖请求
+    CS_MSG_LOTTERY_RSP                      = 38;       // 抽奖响应
+    CS_MSG_ASK_LOTTERY_INFO_REQ             = 39;       // 抽奖信息请求
+    CS_MSG_ASK_LOTTERY_INFO_RSP             = 40;       // 抽奖信息响应
+    CS_MSG_MAIL_LIST_REQ                    = 41;       // 拉取邮件列表请求
+    CS_MSG_MAIL_LIST_RSP                    = 42;       // 拉取邮件列表响应
+    CS_MSG_MAIL_OPERATION_REQ               = 43;       // 请求操作邮件
+    CS_MSG_MAIL_OPERATION_RSP               = 44;       // 响应邮件操作
+    CS_MSG_HERO_COMPOSE_REQ                 = 45;       // 英雄合成请求
+    CS_MSG_HERO_COMPOSE_RSP                 = 46;       // 英雄合成应答
+    CS_MSG_ADVISER_SKILL_COMPOSE_REQ        = 47;       // 军师技能合成请求
+    CS_MSG_ADVISER_SKILL_COMPOSE_RSP        = 48;       // 军师技能合成应答
+    CS_MSG_ADVISER_SKILL_EVOLUTION_REQ      = 49;       // 军师技能进化请求
+    CS_MSG_ADVISER_SKILL_EVOLUTION_RSP      = 50;       // 军师技能进化应答
+    CS_MSG_EXCHANGE_REQ                     = 51;       // 物品兑换请求
+    CS_MSG_EXCHANGE_RSP                     = 52;       // 物品兑换响应
+    CS_MSG_GUIDE_DROP_REQ                   = 53;       // 指引掉落请求
+    CS_MSG_GUIDE_DROP_RSP                   = 54;       // 指引掉落应答，成功发送
+ 
+    CS_MSG_NOP_REP                          = 9999;     // 空消息
+
+    // [S <-> S] message [10001 - 20000]----
+    SS_MSG_CREATE_ROLE_REQ          = 10002;    // gs->db 创建角色请求
+    SS_MSG_CREATE_ROLE_RSP          = 10003;    // db->gs 创建角色回应
+    SS_MSG_QUERY_ROLE_REQ           = 10004;    // gs->db 获取角色信息请求
+    SS_MSG_QUERY_ROLE_RSP           = 10005;    // db->gs 获取角色信息回应
+    SS_MSG_UPDATE_ROLE_REQ          = 10006;    // gs->db 更新角色信息请求
+    SS_MSG_UPDATE_ROLE_RSP          = 10007;    // db->gs 更新角色信息回应
+    SS_MSG_SEND_EMAIL_REQ           = 10008;    // idip->gs 发送邮件请求
+    SS_MSG_SEND_EMAIL_RSP           = 10009;    // gs->idip 发送邮件响应
+    SS_MSG_APPEND_MAIL_REQ          = 10010;    // gs->db   添加邮件请求
+    SS_MSG_APPEND_MAIL_RSP          = 10011;    // gb->gs   添加邮件响应
+}
+
+
+
+
+

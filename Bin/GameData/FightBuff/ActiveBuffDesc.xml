@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="ParamCount" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1010" ParamCount="2" />
+    <Line ID="1011" ParamCount="2" />
+    <Line ID="1012" ParamCount="2" />
+    <Line ID="1013" ParamCount="2" />
+    <Line ID="1014" ParamCount="1" />
+    <Line ID="1015" ParamCount="2" />
+    <Line ID="1020" ParamCount="2" />
+    <Line ID="1021" ParamCount="2" />
+    <Line ID="1022" ParamCount="2" />
+    <Line ID="1023" ParamCount="2" />
+    <Line ID="1030" ParamCount="2" />
+    <Line ID="1031" ParamCount="2" />
+    <Line ID="1041" ParamCount="2" />
+  </Data>
+</Root>

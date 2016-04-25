@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="RoundPoint" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line RoundPoint="500" />
+  </Data>
+</Root>

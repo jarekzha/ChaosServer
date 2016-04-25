@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Step" Type="0" />
+    <Type Name="EffectID" Type="0" />
+    <Type Name="DropID" Type="0" />
+    <Type Name="StartRule1Type" Type="0" />
+    <Type Name="StartRule1Param" Type="0" />
+    <Type Name="StartRule2Type" Type="0" />
+    <Type Name="StartRule2Param" Type="0" />
+    <Type Name="StartRule3Type" Type="0" />
+    <Type Name="StartRule3Param" Type="0" />
+    <Type Name="StartRule4Type" Type="0" />
+    <Type Name="StartRule4Param" Type="0" />
+    <Type Name="StopRule1Type" Type="0" />
+    <Type Name="StopRule1Param" Type="0" />
+    <Type Name="StopRule2Type" Type="0" />
+    <Type Name="StopRule2Param" Type="0" />
+    <Type Name="StopRule3Type" Type="0" />
+    <Type Name="StopRule3Param" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Step="1" EffectID="1" DropID="1" StartRule1Type="" StartRule1Param="" StartRule2Type="" StartRule2Param="" StartRule3Type="" StartRule3Param="" StartRule4Type="" StartRule4Param="" StopRule1Type="1" StopRule1Param="" StopRule2Type="" StopRule2Param="" StopRule3Type="" StopRule3Param="" />
+    <Line ID="2" Step="1" EffectID="2" DropID="" StartRule1Type="" StartRule1Param="" StartRule2Type="" StartRule2Param="" StartRule3Type="" StartRule3Param="" StartRule4Type="" StartRule4Param="" StopRule1Type="1" StopRule1Param="" StopRule2Type="" StopRule2Param="" StopRule3Type="" StopRule3Param="" />
+  </Data>
+</Root>

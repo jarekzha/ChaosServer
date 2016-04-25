@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+    <Type Name="Param4" Type="0" />
+    <Type Name="Param5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="101" Type="1" Param1="10000" Param2="1" Param3="0" Param4="0" Param5="" />
+    <Line ID="102" Type="4" Param1="10000" Param2="0" Param3="2" Param4="" Param5="" />
+    <Line ID="103" Type="5" Param1="101" Param2="" Param3="" Param4="" Param5="" />
+  </Data>
+</Root>

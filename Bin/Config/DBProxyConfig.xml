@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<DBProxy>
+    <ProcID>1003</ProcID>
+    <IPCConfig>./Config/IPCConfig.xml</IPCConfig>
+    <GameServerProcID>1002</GameServerProcID>
+    <DBHost>tcp://localhost:3306</DBHost>
+    <DBUserName>root</DBUserName>
+    <DBPassword>root</DBPassword>
+    <DBName>HGame</DBName>
+    <ThreadNum>3</ThreadNum>
+</DBProxy>
+

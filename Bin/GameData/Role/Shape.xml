@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ShapeID" Type="0" />
+    <Type Name="ShapeName" Type="2" />
+    <Type Name="ShapeDesc" Type="2" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="OneID" Type="0" />
+    <Type Name="OneX" Type="0" />
+    <Type Name="OneY" Type="0" />
+    <Type Name="TwoID" Type="0" />
+    <Type Name="TwoX" Type="0" />
+    <Type Name="TwoY" Type="0" />
+    <Type Name="ThreeID" Type="0" />
+    <Type Name="ThreeX" Type="0" />
+    <Type Name="ThreeY" Type="0" />
+    <Type Name="FourID" Type="0" />
+    <Type Name="FourX" Type="0" />
+    <Type Name="FourY" Type="0" />
+    <Type Name="FiveID" Type="0" />
+    <Type Name="FiveX" Type="0" />
+    <Type Name="FiveY" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ShapeID="1" ShapeName="锋失阵" ShapeDesc="锋失阵" ResName="fengshizhen" OneID="1" OneX="2" OneY="2" TwoID="2" TwoX="1" TwoY="2" ThreeID="3" ThreeX="0" ThreeY="2" FourID="4" FourX="0" FourY="0" FiveID="5" FiveX="0" FiveY="0" />
+    <Line ShapeID="2" ShapeName="灵龟阵" ShapeDesc="灵龟阵" ResName="lingguizhen" OneID="1" OneX="4" OneY="2" TwoID="2" TwoX="5" TwoY="1" ThreeID="3" ThreeX="5" ThreeY="2" FourID="4" FourX="5" FourY="3" FiveID="5" FiveX="6" FiveY="2" />
+    <Line ShapeID="3" ShapeName="鹤翼阵" ShapeDesc="鹤翼阵" ResName="heyizhen" OneID="1" OneX="4" OneY="1" TwoID="2" TwoX="4" TwoY="2" ThreeID="3" ThreeX="4" ThreeY="3" FourID="4" FourX="5" FourY="1" FiveID="5" FiveX="5" FiveY="3" />
+    <Line ShapeID="4" ShapeName="鱼鳞阵" ShapeDesc="鱼鳞阵" ResName="yulinzhen" OneID="1" OneX="4" OneY="1" TwoID="2" TwoX="4" TwoY="3" ThreeID="3" ThreeX="6" ThreeY="1" FourID="4" FourX="6" FourY="3" FiveID="5" FiveX="6" FiveY="2" />
+    <Line ShapeID="5" ShapeName="长蛇阵" ShapeDesc="长蛇阵" ResName="changshezhen" OneID="1" OneX="4" OneY="0" TwoID="2" TwoX="4" TwoY="1" ThreeID="3" ThreeX="4" ThreeY="2" FourID="4" FourX="4" FourY="3" FiveID="5" FiveX="4" FiveY="4" />
+  </Data>
+</Root>

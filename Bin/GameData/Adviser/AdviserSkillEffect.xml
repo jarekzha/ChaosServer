@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Type" Type="0" />
+    <Type Name="ParamCount" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+    <Type Name="Param4" Type="0" />
+    <Type Name="Param5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1001" Name="普通伤害" Type="1" ParamCount="1" Param1="300" Param2="" Param3="" Param4="" Param5="" />
+  </Data>
+</Root>

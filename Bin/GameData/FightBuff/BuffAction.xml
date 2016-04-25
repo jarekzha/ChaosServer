@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Trigger1" Type="0" />
+    <Type Name="Trigger2" Type="0" />
+    <Type Name="Trigger3" Type="0" />
+    <Type Name="Condition1" Type="0" />
+    <Type Name="Condition1Param1" Type="0" />
+    <Type Name="Condition1Param2" Type="0" />
+    <Type Name="Condition1Param3" Type="0" />
+    <Type Name="Condition2" Type="0" />
+    <Type Name="Condition2Param1" Type="0" />
+    <Type Name="Condition2Param2" Type="0" />
+    <Type Name="Condition2Param3" Type="0" />
+    <Type Name="Condition3" Type="0" />
+    <Type Name="Condition3Param1" Type="0" />
+    <Type Name="Condition3Param2" Type="0" />
+    <Type Name="Condition3Param3" Type="0" />
+    <Type Name="Effect1" Type="0" />
+    <Type Name="Effect1Param1" Type="0" />
+    <Type Name="Effect1Param2" Type="0" />
+    <Type Name="Effect1Param3" Type="0" />
+    <Type Name="Effect2" Type="0" />
+    <Type Name="Effect2Param1" Type="0" />
+    <Type Name="Effect2Param2" Type="0" />
+    <Type Name="Effect2Param3" Type="0" />
+    <Type Name="Effect3" Type="0" />
+    <Type Name="Effect3Param1" Type="0" />
+    <Type Name="Effect3Param2" Type="0" />
+    <Type Name="Effect3Param3" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Trigger1="1" Trigger2="0" Trigger3="0" Condition1="2" Condition1Param1="10000" Condition1Param2="" Condition1Param3="" Condition2="" Condition2Param1="" Condition2Param2="" Condition2Param3="" Condition3="" Condition3Param1="" Condition3Param2="" Condition3Param3="" Effect1="2" Effect1Param1="8" Effect1Param2="2" Effect1Param3="2000" Effect2="" Effect2Param1="" Effect2Param2="" Effect2Param3="" Effect3="" Effect3Param1="" Effect3Param2="" Effect3Param3="" />
+    <Line ID="2" Trigger1="0" Trigger2="0" Trigger3="0" Condition1="" Condition1Param1="" Condition1Param2="" Condition1Param3="" Condition2="" Condition2Param1="" Condition2Param2="" Condition2Param3="" Condition3="" Condition3Param1="" Condition3Param2="" Condition3Param3="" Effect1="4" Effect1Param1="" Effect1Param2="" Effect1Param3="" Effect2="" Effect2Param1="" Effect2Param2="" Effect2Param3="" Effect3="" Effect3Param1="" Effect3Param2="" Effect3Param3="" />
+  </Data>
+</Root>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="StackCount" Type="0" />
+    <Type Name="Type" Type="0" />
+    <Type Name="Sustain" Type="0" />
+    <Type Name="Interval" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+    <Type Name="Param4" Type="0" />
+    <Type Name="Param5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="101" Name="增加60点攻击力" StackCount="1" Type="2021" Sustain="99" Interval="1" Param1="1" Param2="1" Param3="8" Param4="60" Param5="" />
+    <Line ID="102" Name="攻击力提升120%" StackCount="1" Type="2021" Sustain="1" Interval="1" Param1="1" Param2="2" Param3="8" Param4="2000" Param5="" />
+    <Line ID="103" Name="增加150点攻击力" StackCount="1" Type="2021" Sustain="99" Interval="1" Param1="1" Param2="1" Param3="8" Param4="150" Param5="" />
+  </Data>
+</Root>

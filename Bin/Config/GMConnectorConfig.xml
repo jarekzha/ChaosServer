@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<ConnectConfig>
+    <ProcID>1004</ProcID>
+    <IP>127.0.0.1</IP>
+    <Port>6789</Port>
+    <RequestCount>50</RequestCount>
+    <IPCConfig>IPCConfig.xml</IPCConfig>
+    <GameServerProcID>1002</GameServerProcID>
+    <HTTPUrl>http://192.168.1.152/gm.html</HTTPUrl>
+</ConnectConfig>
+

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="MaxRage" Type="0" />
+    <Type Name="AutoRageTimeInterval" Type="0" />
+    <Type Name="AutoRageValue" Type="0" />
+    <Type Name="AutoRageOffon" Type="3" />
+    <Type Name="HurtRageValue" Type="0" />
+    <Type Name="KillRageValue" Type="0" />
+    <Type Name="BehitRageValue" Type="0" />
+    <Type Name="SkillHurtHasRage" Type="3" />
+    <Type Name="SkillKillHasRage" Type="3" />
+    <Type Name="SkillCollectRageLimit" Type="0" />
+    <Type Name="AttackHurtHasRage" Type="3" />
+    <Type Name="AttackKillHasRage" Type="3" />
+    <Type Name="AttackCollectRageLimit" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line MaxRage="100" AutoRageTimeInterval="0" AutoRageValue="0" AutoRageOffon="N" HurtRageValue="100" KillRageValue="50" BehitRageValue="25" SkillHurtHasRage="Y" SkillKillHasRage="Y" SkillCollectRageLimit="100" AttackHurtHasRage="Y" AttackKillHasRage="Y" AttackCollectRageLimit="100" />
+  </Data>
+</Root>

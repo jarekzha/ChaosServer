@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Url" Type="2" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Url="sound/fight/common/adviser_gather.mp3" />
+    <Line ID="2" Url="sound/fight/common/behit.mp3" />
+    <Line ID="3" Url="sound/fight/common/sword.mp3" />
+    <Line ID="4" Url="sound/fight/common/hero_gather.mp3" />
+    <Line ID="5" Url="sound/fight/attack/arrow.mp3" />
+    <Line ID="6" Url="sound/fight/attack/axe.mp3" />
+    <Line ID="7" Url="sound/fight/attack/magic.mp3" />
+    <Line ID="8" Url="sound/fight/attack/sword.mp3" />
+    <Line ID="9" Url="sound/fight/skill/bomb.mp3" />
+    <Line ID="10" Url="sound/fight/skill/burn.mp3" />
+    <Line ID="11" Url="sound/fight/skill/freeze.mp3" />
+    <Line ID="12" Url="sound/fight/skill/hurricane.mp3" />
+    <Line ID="13" Url="sound/fight/skill/stone.mp3" />
+    <Line ID="14" Url="sound/fight/skill/treat.mp3" />
+    <Line ID="15" Url="sound/fight/death/death_man.mp3" />
+    <Line ID="16" Url="sound/fight/skill/hail.mp3" />
+    <Line ID="17" Url="sound/fight/death/death_woman.mp3" />
+  </Data>
+</Root>

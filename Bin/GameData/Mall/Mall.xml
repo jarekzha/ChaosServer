@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="ItemType" Type="0" />
+    <Type Name="ItemID" Type="0" />
+    <Type Name="Count" Type="0" />
+    <Type Name="MoneyType" Type="0" />
+    <Type Name="Price" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" ItemType="2" ItemID="1" Count="1" MoneyType="1" Price="100" />
+    <Line ID="2" ItemType="2" ItemID="2" Count="1" MoneyType="1" Price="200" />
+    <Line ID="3" ItemType="2" ItemID="3" Count="1" MoneyType="1" Price="300" />
+    <Line ID="4" ItemType="2" ItemID="4" Count="1" MoneyType="1" Price="400" />
+    <Line ID="5" ItemType="2" ItemID="5" Count="1" MoneyType="1" Price="500" />
+    <Line ID="6" ItemType="2" ItemID="6" Count="1" MoneyType="1" Price="600" />
+  </Data>
+</Root>

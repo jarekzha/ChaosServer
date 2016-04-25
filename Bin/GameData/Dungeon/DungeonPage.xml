@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="DungeonID" Type="0" />
+    <Type Name="PageID" Type="0" />
+    <Type Name="PageName" Type="2" />
+  </TypeMeta>
+  <Data>
+    <Line DungeonID="1" PageID="1" PageName="第一章" />
+    <Line DungeonID="1" PageID="2" PageName="第二章" />
+    <Line DungeonID="2" PageID="1" PageName="第一章" />
+    <Line DungeonID="2" PageID="1" PageName="第二章" />
+  </Data>
+</Root>

@@ -1,0 +1,702 @@
+/*
+ * 定义CS和SS网络消息
+ */
+import "MsgID.proto";
+import "Macro.proto";
+
+
+
+//////////////////////////////// COM MESSAGE DEFINE ///////////////////////////
+
+// 背包--------------------------------------------------------------------------
+
+// 武将基础属性
+message ComHeroBaseAttr
+{
+	required uint32				star			= 1;		//星级
+	required uint32				level			= 2;		//等级
+	required uint32				exp				= 3;		//经验
+	required uint32				quality			= 4;		//品质
+}
+
+message ComEquipment
+{
+	required uint32				equipment_res_id = 1;	// 装备id
+	required uint32				equipment_slot_idx = 2;	// 对应装槽位索引
+}
+
+message ComHeroEquipmentSlot
+{
+	repeated ComEquipment		equipment_slot 	= 1;
+}
+
+// 技能
+message ComSkillAttr
+{
+    required uint32             level       = 1;    // 技能等级
+}
+
+message ComSkillInfo
+{
+    required uint32             skill_id    = 1;    // 技能id
+    required ComSkillAttr       skill_attr  = 2;    // 技能属性
+}
+
+message ComSkill
+{
+    repeated ComSkillInfo       skill_info  = 1;    // 技能详细信息
+}
+
+// 武将
+message ComHeroInfo
+{
+	required ComHeroBaseAttr           hero_attr           = 1;	// 武将基础属性
+	required ComHeroEquipmentSlot      equipment_slot      = 2;	// 武将装备列表
+	required ComSkill                  skill_slot          = 3; // 武将技能列表                  
+}
+
+message ComAdviserSkillInfo
+{
+    required uint32             star = 1;                   // 星级数
+}
+
+// 背包物品key，用于标识指定资源的物品
+message ComBagItemKey
+{
+    required BagItemType        item_type = 1;              // 物品类型
+    required uint32             item_res_id = 2;            // 物品资源ID
+}
+
+// 背包物品
+message ComBagItemInfo
+{
+    required BagItemType            bag_item_type   = 1;
+    required uint32                 res_id          = 2;
+
+    optional ComHeroInfo            hero_info		= 3;
+    optional ComAdviserSkillInfo    adviser_skill_info = 4;
+}
+
+// 背包槽位
+message ComBagSlotInfo
+{
+    required uint32             count = 1;
+    required ComBagItemInfo     bag_item = 2;
+}
+
+// 背包
+message ComBagInfo
+{
+    required BagType            bag_type = 1;
+    repeated ComBagSlotInfo     bag_slot = 2;
+}
+
+// 副本--------------------------------------------------------------------------
+message ComLevelInfo
+{
+    required uint32     res_id = 1;         // 资源ID
+    required uint32     star = 2;           // 星级数
+    required uint32     finish_count = 3;   // 完成次数
+}
+
+message ComDungeonInfo
+{
+    required uint32         type = 1;               // 副本类型
+    repeated ComLevelInfo   challenged_level = 2;   // 挑战过的level
+}
+
+// 商品--------------------------------------------------------------------------
+message ComGoodsInfo
+{
+    required uint32         res_id      = 1;     // 商品id
+    required uint32         slot_idx    = 2;     // 商品面板槽位索引idx
+}
+
+message ComMall
+{
+    required MallType       mall_type = 1;      // 商店类型
+    required uint32         last_upd_time = 2;  // 商城刷新时间
+    repeated ComGoodsInfo   mall_info = 3;      // 商店物品列表
+}
+
+// 抽奖相关数据
+message ComLotteryInfo
+{
+    required    uint32      next_coin_lottery_time      = 1;    // 下次免费金币抽奖时间
+    required    uint32      next_diamond_lottery_time   = 2;    // 下次免费钻石抽奖使劲啊    
+    required    uint32      coin_free_lottery_times     = 3;    // 金币免费抽奖次数
+}
+
+// 邮件相关
+message ComMailSysNotice
+{
+    required    bytes       content     = 1;    // 公告内容
+}
+
+message ComMailBagItemInfo
+{
+    required ComBagItemKey  item_key    = 1;    // 装备道具key
+    required uint32         count       = 2;    // 物品数量
+}
+
+message ComMailGiftInfo
+{
+    required MailItemType   item_type   = 1;    // 附件物品类型
+    optional ComMailBagItemInfo bag_item  = 2;    // 物品、道具明细
+    optional uint32         exp         = 3;    // 经验值
+    optional uint32         coin        = 4;    // 金币数量
+    optional uint32         diamond     = 5;    // 钻石数量
+}
+
+message ComMailGift
+{
+    repeated    ComMailGiftInfo     mail_gift   = 1;// 附件列表
+    required    bool            picked      = 2;// 是否已被提取
+    optional    bytes           brief       = 3;// 赠送相关描述信息
+}
+
+message ComMailContent
+{
+    required    MailType        type            = 1;    // 邮件类型
+    required    MailPriority    priority        = 2;    // 邮件优先级
+    required    uint32          seq             = 3;    // 又见序号，确保邮件唯一性
+    required    string          sender          = 4;    // 发件人    
+    required    string          theme           = 5;    // 主题
+    required    uint32          send_time       = 6;    // 邮件发送时间
+    required    uint32          expire_time     = 7;    // 过期时间    
+    required    bool            confirmed       = 8;    // 是否已读
+    optional    ComMailSysNotice    sys_notice  = 9;    // 系统通知
+    optional    ComMailGift      item           = 10;   // 物品
+}
+
+//////////////////////////////// CS MESSAGE DEFINE ////////////////////////////
+// 背包，物品--------------------------------------------------------------------------
+// 物品添加通知
+message CSBagItemAddNtf
+{
+    required BagType            bag_type = 1;           // 背包类型
+    required ComBagItemInfo     bag_item = 2;           // 物品信息
+    required uint32             add_count = 3;          // 添加数量
+}
+
+// 物品移除通知
+message CSBagItemRemoveNtf
+{
+    required BagType            bag_type = 1;           // 背包类型
+    required ComBagItemKey      item_key = 2;           // 物品标识
+    required uint32             remove_count = 3;       // 添加数量
+}
+
+message CSWearEquipmentReq
+{
+	required uint32				hero_res_id 	= 1;		// 武将id
+	required uint32				slot_idx		= 2;		// 武将装备槽位索引[0~5]
+}
+
+message CSWearEquipmentRsp
+{
+	required int32     			result = 1;				// 穿戴装备结果0 success !0 fail
+	required uint32				hero_res_id = 2;		// 武将id
+	required uint32				slot_idx = 3;			// 武将装备槽位索引[0~5]
+}
+
+// 副本--------------------------------------------------------------------------
+// 怪物游戏币掉落
+message CSMonsterGameMoneyDropInfo
+{
+    required uint32             monster_res_id = 1;     // 怪物资源ID
+    required uint32             game_money = 2;         // 掉落金币数量
+}
+
+message CSMonsterItemDropInfo
+{
+    required uint32             monster_res_id = 1;     // 怪物资源ID
+    repeated ComBagItemKey      bag_item = 2;           // 物品列表
+}
+
+// 关卡的掉落信息
+message CSLevelDropInfo
+{
+    repeated CSMonsterGameMoneyDropInfo     monster_game_money_drop = 1;    // 怪物游戏币掉落信息
+    repeated CSMonsterItemDropInfo          monster_item_drop = 2;          // 怪物物品掉落信息
+    required uint32                         player_exp = 3;                 // 角色经验
+    required uint32                         hero_exp = 4;                   // 英雄经验
+}
+
+message CSStartChallengeLevelReq
+{
+    required uint32             level_res_id = 1;   // 关卡资源ID
+    repeated uint32             hero_res_id = 2;    // 参战的英雄资源ID
+}
+
+message CSStartChallengeLevelRsp
+{
+    required uint32             level_res_id = 1;   // 关卡资源ID
+    required CSLevelDropInfo    level_drop = 2;     // 关卡掉落
+}
+
+message CSFinishChallengeLevelReq
+{
+    required uint32             level_res_id = 1;   // 关卡资源ID
+    required uint32             star = 2;           // 星数，0表示失败
+}
+
+// 登录登出协议----------------------------------------------------------------------
+message CSLoginReq
+{
+    required string     account = 1;            // 账号
+}
+
+message CSPlayerBaseInfo
+{
+    required string     name = 1;               // 名称
+    required uint32     game_money = 2;         // 游戏币
+    required uint32     rmb = 3;                // RMB
+    required uint32     cur_energy = 4;         // 体力
+    required uint32     max_energy = 5;         // 最大体力
+    required uint32     exp = 6;                // 经验值
+    required uint32     level = 7;              // 等级
+}
+
+message CSGetPlayerDataRsp
+{
+    required string             account = 1;            // 账号
+    required CSPlayerBaseInfo   base = 2;               // 基础信息
+    required ComBagInfo         hero_bag = 3;           // 英雄背包
+    required ComBagInfo         common_bag = 4;         // 通用背包
+    required ComBagInfo         fragment_bag = 5;       // 碎片背包
+    required ComBagInfo         adviser_skill_bag = 6;  // 军师技能背包
+    repeated ComDungeonInfo     dungeon = 7;            // 副本信息
+}
+
+message CSChgDecryptKeyNtf
+{
+    repeated uint32             key = 1;                // 解密key
+}
+
+// 武将成长相关协议-------------------------------------------------------------------
+message CSHeroComposeReq
+{
+    required uint32             hero_req_id = 1;        // 武将ID
+}
+
+message CSHeroUpgradeReq
+{
+    required uint32             hero_res_id = 1;		// 武将id
+}
+
+message CSHeroUpgradeRsp
+{
+    required int32              result = 1;             // 武将进阶结果:0成功 !0失败
+    required uint32             hero_res_id = 2;        // 武将id
+}
+
+message CSHeroEvolutionReq
+{
+    required uint32             hero_res_id = 1;        // 武将id
+}
+
+message CSHeroEvolutionRsp
+{
+    required int32              result = 1;             // 武将进阶结果:0成功 !0失败
+    required uint32             hero_res_id = 2;        // 武将id
+}
+
+message CSHeroAttrChangeNtf
+{
+    required uint32             hero_res_id = 1;        // 武将id
+    required HeroAttrType       attr_type = 2;          // 属性类型
+    required int32              attr_value = 3;         // 属性值
+}
+
+// 军师技能------------------------------------------------------------------------
+message CSAdviserSkillComposeReq
+{
+    required uint32             adviser_skill_id = 1;   // 军师技能ID
+}
+
+message CSAdviserSkillEvolutionReq
+{
+    required uint32             adviser_skill_id = 1;   // 军师技能ID
+}
+
+// 角色相关------------------------------------------------------------------------
+message CSPlayerAttrChangeNtf
+{
+    required PlayerAttrType     attr_type = 1;          // 角色属性类型
+    required int32              attr_value = 2;         // 属性值
+}
+
+// 商场交易相关----------------------------------------------------------------------
+message CSSellItemReq
+{
+    required ComBagItemKey      item = 1;               // 物品
+    required uint32             count = 2;              // 出售个数
+}
+
+message CSBuyItemReq
+{
+    required    MallType        mall_type = 1;          // 商店类型
+    required    uint32          slot_idx = 2;           // 商品槽位idx
+    required    uint32          res_id  = 3;            // 商品id
+}
+
+message CSBuyItemRsp
+{
+    required    int32           result = 1;             // 购买结果 0:成功 !0:失败
+    required    MallType        mall_type = 2;          // 商店类型
+    required    uint32          slog_idx = 3;           // 商城槽位idx
+    required    uint32          res_id = 4;             // 商品id
+}
+
+message CSExchangeReq
+{
+    required    ExchangeType    type    = 1;            // 兑换类型
+}
+
+message CSAskUpdateMallReq
+{
+    required    MallType        mall_type = 1;          // 商店类型
+};
+
+message CSMallGoodsUpdateNtf
+{
+    required    ComMall         mall = 1;               // 商店信息
+}
+
+message CSMallDelGoodsNtf
+{
+    required    MallType        mall_type = 1;          // 商店类型
+    required    uint32          slot_idx = 2;           // 商品槽位idx
+}
+
+// 抽奖相关------------------------------------------------------------------------
+message CSLotteryItem
+{
+    required ComBagItemKey      bag_item_key    = 1;       // 物品描述信息
+    required int32              count           = 2;       // 物品数量          
+}
+
+message CSLotteryInfo
+{
+    required CSLotteryItem      lottery_item    = 1;       // 奖品信息
+    required bool               need_split      = 2;       // 是否需要分裂:若奖品为武将且已拥有，需分裂
+    optional CSLotteryItem      split_item      = 3;       // 实际获得物品               
+}
+
+message CSLotteryDetails
+{
+    repeated CSLotteryInfo      lottery_info = 1;       // 奖品列表
+}
+
+message CSLotteryReq
+{
+    required    LotteryType     lottery_type    = 1;    // 抽奖类型   
+}
+
+message CSLotteryRsp
+{
+    required    int32               result          = 1;    // 抽奖结果 0 success !0 fail
+    required    LotteryType         lottery_type    = 2;    // 抽奖类型
+    optional    CSLotteryDetails    lottery_details = 4;    // 奖品信息
+    optional    ComLotteryInfo      lottery_info    = 5;    // 抽奖信息
+}
+
+message CSAskLotteryRsp
+{
+    required    ComLotteryInfo  lottery_info    = 1;    // 抽奖信息
+}
+
+// 错误消息------------------------------------------------------------------------
+message CSErrorNtf
+{
+    required MsgErrorID error_id = 1;       // 错误ID
+}
+
+// 技能相关-------------------------------------------------------------------------
+message CSHeroSkillUpgradeReq
+{
+    required uint32             hero_res_id     = 1;        // 武将id
+    required uint32             skill_res_id    = 2;        // 技能id
+}
+
+message CSHeroSkillUpgradeRsp
+{
+    required int32              result          = 1;        // 技能升级结果:0成功 !0失败
+    required uint32             hero_res_id     = 2;        // 武将id
+    required uint32             skill_res_id    = 3;        // 技能id
+}
+
+// 合成--------------------------------------------------------------------------
+message CSEquipmentComposeReq
+{
+    required uint32             equipment_res_id = 1;       // 目标装备ID
+}
+
+message CSFragmentComposeReq
+{
+    required uint32             fragment_res_id = 1;        // 碎片资源ID
+}
+
+// 邮件相关------------------------------------------------------------------------
+message CSMailListRsp
+{
+    repeated    ComMailContent  mail    = 1;    //邮件列表    
+}
+
+message CSMailOperationReq
+{
+    required    MailType        type    = 1;    // 邮件类型
+    required    uint32          seq     = 2;    // 邮件序号
+    required    MailOperation   op      = 3;    // 操作类型
+}
+
+message CSMailOperationRsp
+{
+    required    MailType        type    = 1;    // 邮件类型
+    required    uint32          seq     = 2;    // 邮件序号
+    required    MailOperation   op      = 3;    // 操作类型
+}
+
+// 新手指引相关----------------------------------------------------------------------
+message CSGuideDropReq
+{
+    required    uint32          drop_id = 1;    // 掉落ID
+}
+
+message CSGuideDropRsp
+{
+    required    uint32          drop_id = 1;    // 掉落ID
+}
+
+message SSGuideRecordInfo
+{
+    repeated    uint32          drop_id = 1;    // 掉落ID
+}
+
+/////////////////////////////// SS MESSAGE DEFINE /////////////////////////////
+// 玩家基础信息----------------------------------------------------------------------
+message SSPlayerBaseDBInfo
+{
+    required string     name = 1;               // 名称
+    required uint32     game_money = 2;         // 游戏币
+    required uint32     rmb = 3;                // RMB
+    required uint32     cur_energy = 4;         // 体力
+    required uint32     max_energy = 5;         // 最大体力
+    required uint32     exp = 6;                // 经验值
+    required uint32     level = 7;              // 等级
+}
+
+// 副本信息------------------------------------------------------------------------
+// 游戏币掉落
+message SSMonsterItemDropInfo
+{
+    required uint32         monster_res_id = 1;     // 怪物资源ID
+    repeated ComBagItemKey  item = 2;               // 物品
+}
+
+// 关卡掉落信息
+message SSLevelDropInfo
+{
+    required uint32                 monster_game_money_drop = 1;    // 怪物游戏币掉落
+    repeated SSMonsterItemDropInfo  monster_item_drop = 2;          // 怪物物品掉落
+    required uint32                 player_exp = 3;                 // 角色经验
+    required uint32                 hero_exp = 4;                   // 英雄经验
+}
+
+// 关卡挑战信息
+message SSLevelChallengeInfo
+{
+    required uint32             level_res_id = 1;       // 关卡资源ID
+    repeated uint32             fight_hero_res_id = 2;  // 参与战斗的英雄资源ID
+    optional SSLevelDropInfo    level_drop = 3;         // 关卡掉落
+}
+
+message SSDungeonProgressInfo
+{
+    repeated ComDungeonInfo         dungeon = 1;            // 副本信息
+    required SSLevelChallengeInfo   level_challenge = 2;    // 关卡挑战
+}
+
+
+// 角色DB信息，序列化后，存入DB blob中
+message SSPlayerDBInfo
+{
+    required SSPlayerBaseDBInfo     base = 1;               // 基础信息
+    required ComBagInfo             hero_bag = 2;           // 英雄背包
+    required ComBagInfo             common_bag = 3;         // 通用背包
+    required ComBagInfo             fragment_bag = 4;       // 碎片背包
+    required ComBagInfo             adviser_skill_bag = 5;  // 军师技能背包
+    required SSDungeonProgressInfo  dungeon_progress = 6;   // 副本信息
+    repeated ComMall                mall = 7;               // 商店信息
+    required ComLotteryInfo         lottery = 8;            // 抽奖信息
+    required SSGuideRecordInfo      guide = 9;              // 掉落信息
+} 
+
+message SSMailDBInfo
+{
+    repeated    ComMailContent  mail    = 1;    // 邮件列表
+}
+
+message SSCreateRoleReq
+{
+    required string account = 1;                // 账号
+    required bytes  serialized_role_info = 2;   // 角色信息bin
+}
+
+message SSCreateRoleRsp
+{
+    required bool       successful = 1;         // 是否成功
+    optional MsgErrorID error_id = 2;           // 错误原因
+}
+
+message SSQueryRoleReq
+{
+    required string         account = 2;        // 账号
+}
+
+message SSQueryRoleRsp
+{
+    required string         account = 2;                // 账号
+    required bool           query_successful = 3;       // 查询是否成功
+    optional MsgErrorID     error_id = 4;               // 错误原因
+    optional bytes          serialized_role_info = 5;   // 角色信息bin
+    optional bytes          serialized_mail_info = 6;   // 邮件信息bin
+}
+
+message SSUpdateRoleReq
+{
+    required string         account = 2;                // 账号
+    required bytes          serialized_role_info = 3;   // 角色信息bin
+    optional bytes          serialized_mail_info = 4;   // 邮件信息bin
+}
+
+message SSUpdateRoleRsp
+{
+    required string         account = 2;                // 账号
+    required bool           update_successful = 3;      // 更新是否成功
+}
+
+message SSSendEmailReq
+{
+    required    string          reciver = 1;    // 收件者
+    required    ComMailContent  content = 2;    // 邮件内容
+}
+
+message SSSendEmailRsp
+{
+    required    bool    result  = 1;    // 发件结果
+}
+
+message SSAppendMailReq
+{
+    required    string          account = 1;    // 帐号
+    required    bytes           content = 2;    // 内容
+}
+
+message SSAppendMailRsp
+{
+    required    bool   result = 1;     // 添加邮件结果
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// 包体，field tag和msgID的值对应
+message MsgBody
+{
+    // [C <-> S] ---------------------
+    optional CSLoginReq                 cs_login_req = 1;                   // 登录请求
+    optional CSGetPlayerDataRsp         cs_get_player_data_rsp = 2;         // 获取玩家数据应答
+    optional CSErrorNtf                 cs_error_ntf = 3;                   // 错误消息
+    optional CSStartChallengeLevelReq   cs_start_challenge_level_req = 4;   // 开始调整关卡请求
+    optional CSStartChallengeLevelRsp   cs_start_challenge_level_rsp = 5;   // 开始调整关卡应答
+    optional CSFinishChallengeLevelReq  cs_finish_challenge_level_req = 6;  // 结束调整关卡请求
+    optional CSBagItemAddNtf            cs_bag_item_add_ntf = 7;            // 背包物品添加通知
+    optional CSBagItemRemoveNtf         cs_bag_item_remove_ntf = 8;         // 背包物品移除通知
+    optional CSHeroUpgradeReq           cs_hero_upgrade_req = 9;            // 武将进阶请求
+    optional CSHeroUpgradeRsp           cs_hero_upgrade_rsp = 10;           // 武将进阶响应
+    optional CSHeroEvolutionReq         cs_hero_evolution_req = 11;         // 武将进化请求
+    optional CSHeroEvolutionRsp         cs_hero_evolution_rsp = 12;         // 武将进化响应
+    optional CSWearEquipmentReq         cs_hero_wearequip_req = 13;         // 武将穿戴装备请求
+    optional CSWearEquipmentRsp         cs_hero_wearequip_rsp = 14;         // 武将穿戴装备响应
+    optional CSChgDecryptKeyNtf         cs_chg_decrypt_key_ntf = 15;        // 通知client修改解密key
+    optional CSHeroAttrChangeNtf        cs_hero_attr_change_ntf = 16;       // 英雄属性变化通知
+    optional CSPlayerAttrChangeNtf      cs_player_attr_change_ntf = 17;     // 角色属性变化通知
+    optional CSSellItemReq              cs_sell_item_req = 18;              // 出售物品请求
+    optional CSHeroSkillUpgradeReq      cs_hero_upgrade_skill_req = 19;     // 武将技能升级请求
+    optional CSHeroSkillUpgradeRsp      cs_hero_upgrade_skill_rsp = 20;     // 武将技能升级响应
+    optional CSEquipmentComposeReq      cs_equipment_compose_req = 21;      // 装备合成请求
+    optional CSFragmentComposeReq       cs_fragment_compose_req = 22;       // 碎片合成请求
+    optional CSBuyItemReq               cs_buy_item_req = 23;               // 购买商品请求
+    optional CSBuyItemRsp               cs_buy_item_rsp = 24;               // 购买商品响应
+    optional CSMallGoodsUpdateNtf       cs_update_mall_ntf = 25;            // 更新商店列表
+    optional CSMallDelGoodsNtf          cs_del_mall_goods_ntf = 26;         // 从商店删除商品
+    optional CSAskUpdateMallReq         cs_ask_update_mall_req = 27;        // 请求更新商店商品列表
+    optional CSLotteryReq               cs_lottery_req  = 28;               // 抽奖请求
+    optional CSLotteryRsp               cs_lottery_rsp = 29;                // 抽奖响应
+    optional CSAskLotteryRsp            cs_ask_lottery_info_rsp = 30;       // 抽奖信息响应
+    optional CSMailListRsp              cs_mail_list_rsp    = 31;           // 邮件列表响应
+    optional CSMailOperationReq         cs_mail_operation_req = 32;         // 邮件操作请求
+    optional CSMailOperationRsp         cs_mail_operation_rsp = 33;         // 邮件操作响应
+    optional CSHeroComposeReq           cs_hero_compose_req = 34;           // 英雄合成请求
+    optional CSAdviserSkillComposeReq   cs_adviser_skill_compose_req = 35;  // 军师技能合成请求
+    optional CSAdviserSkillEvolutionReq cs_adviser_skill_evolution_req = 36;// 军师技能进化请求
+    optional CSExchangeReq              cs_exchange_req = 37;               // 物品兑换请求
+    optional CSGuideDropReq             cs_guide_drop_req = 38;             // 指引掉落请求
+    optional CSGuideDropRsp             cs_guide_drop_rsp = 39;             // 指引掉落应答
+
+    // [S <-> S] ---------------------
+    optional SSCreateRoleReq    ss_create_role_req = 10002; // gs->db 创建角色请求
+    optional SSCreateRoleRsp    ss_create_role_rsp = 10003; // db->gs 创建角色回应
+    optional SSQueryRoleReq     ss_query_role_req = 10004;  // gs->db 获取角色信息请求
+    optional SSQueryRoleRsp     ss_query_role_rsp = 10005;  // db->gs 获取角色信息回应
+    optional SSUpdateRoleReq    ss_update_role_req = 10006; // gs->db 更新角色信息请求
+    optional SSUpdateRoleRsp    ss_update_role_rsp = 10007; // db->gs 更新角色信息回应
+    optional SSSendEmailReq     ss_send_mail_req = 10008;   // 发件请求
+    optional SSSendEmailRsp     ss_send_mail_rsp = 10009;   // 发件响应
+    optional SSAppendMailReq    ss_append_mail_req = 10010; // 向玩家邮箱添加新邮件请求
+    optional SSAppendMailRsp    ss_append_mail_rsp = 10011; // 向玩家邮箱添加新邮件响应
+}
+
+///////////////////////////////////////////////////////////////////////////////
+message NetMsg
+{
+    required MsgID      id = 1;         // 消息ID
+    optional MsgBody    body = 2;       // 消息体
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Msg附加信息
+// Client <-> Server消息附加信息
+message CSMsgSetExtra
+{
+    optional int32  request_id = 1;         // 请求ID，客户端不用填
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// 消息集合头
+message MsgSetHead
+{
+    required fixed32    sequence = 1;               // 序列号
+    required fixed32    session_id = 2;             // 会话ID
+    optional uint32     svrtime = 3;                //服务器时间
+}
+
+message MsgSetExtra
+{
+    optional CSMsgSetExtra  cs_msg = 1;         // cs消息集合附加信息
+}
+
+// 消息集合
+message MsgSet
+{
+    required MsgSetHead     head = 1;
+    optional MsgSetExtra    extra = 2;
+    repeated NetMsg         msg = 3;
+}
+
+message CSTransferMsg
+{
+    required    uint32  session_id  =   1;  //  会话ID
+    required    int32   compress    =   2;  //  压缩标志	
+    required    bytes   msg         =   3;  //  真实消息
+}

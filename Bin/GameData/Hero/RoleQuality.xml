@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="RoleID" Type="0" />
+    <Type Name="Quality" Type="0" />
+    <Type Name="Str" Type="1" />
+    <Type Name="Int" Type="1" />
+    <Type Name="Agi" Type="1" />
+    <Type Name="Health" Type="0" />
+    <Type Name="Attack" Type="0" />
+    <Type Name="Magic" Type="0" />
+    <Type Name="Defend" Type="0" />
+    <Type Name="Resis" Type="0" />
+    <Type Name="Heal" Type="0" />
+    <Type Name="Rage" Type="0" />
+    <Type Name="HitRate" Type="0" />
+    <Type Name="Dodge" Type="0" />
+    <Type Name="CritRate" Type="0" />
+    <Type Name="CritDamageRate" Type="0" />
+    <Type Name="ResilientRate" Type="0" />
+    <Type Name="CounterRate" Type="0" />
+    <Type Name="CounterDamageRate" Type="0" />
+    <Type Name="RestoreHP" Type="0" />
+    <Type Name="RestoreRage" Type="0" />
+    <Type Name="Suck" Type="0" />
+    <Type Name="Speed" Type="0" />
+    <Type Name="Move" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line RoleID="1" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="800" Move="3" />
+    <Line RoleID="2" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="801" Move="3" />
+    <Line RoleID="3" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="802" Move="1" />
+    <Line RoleID="4" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="803" Move="3" />
+    <Line RoleID="5" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="804" Move="1" />
+    <Line RoleID="6" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="805" Move="1" />
+    <Line RoleID="7" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="806" Move="3" />
+    <Line RoleID="8" Quality="1" Str="0" Int="0" Agi="0" Health="10000" Attack="510" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="807" Move="3" />
+  </Data>
+</Root>

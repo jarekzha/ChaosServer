@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+<metalib tagsetversion="1" name="" version="1" >
+    <macrosgroup    name="BAG_ITEM_TYPE_DEF">
+        <macro name="BAG_ITEM_INVALID"  value="0"   cname=""    desc="无效物品类型"/>
+        <macro name="BAG_ITEM_EQUIP"    value="1"   cname="装备"  desc="装备"/>
+        <macro name="BAG_ITEM_PROP"     value="2"   cname="道具"  desc="道具"/>
+        <macro name="BAG_ITEM_FRAGMENT" value="3"   cname="碎片"  desc="碎片"/>
+    </macrosgroup>
+    
+    <macrosgroup    name="PRICE_TYPE_DEF">
+        <macro name="PRICE_TYPE_INVALID"    value="0"   cname=""    desc="无效货币类型"/>
+        <macro name="PRICE_TYPE_MONEY"      value="1"   cname="货币-金币"   desc="金币"/>
+        <macro name="PRICE_TYPE_DIAMOND"    value="2"   cname="货币-钻石"   desc="钻石"/>
+    </macrosgroup>
+</metalib>
+

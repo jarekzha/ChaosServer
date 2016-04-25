@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="Func" Type="2" />
+    <Type Name="Desc" Type="2" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="Level" Type="0" />
+    <Type Name="Quality" Type="0" />
+    <Type Name="Morale" Type="0" />
+    <Type Name="ComposePropNum" Type="0" />
+    <Type Name="ComposePropID" Type="0" />
+    <Type Name="TargetType" Type="0" />
+    <Type Name="MaxTargetNum" Type="0" />
+    <Type Name="ConditionType" Type="0" />
+    <Type Name="IsBehitAct" Type="3" />
+    <Type Name="EntranceEffect" Type="2" />
+    <Type Name="AboveHeroEffect" Type="2" />
+    <Type Name="UnderHeroEffect" Type="2" />
+    <Type Name="EffectCount" Type="0" />
+    <Type Name="Effect1" Type="0" />
+    <Type Name="Effect2" Type="0" />
+    <Type Name="Effect3" Type="0" />
+    <Type Name="Effect4" Type="0" />
+    <Type Name="Effect5" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1001" Name="伤血" Func="伤血" Desc="伤血" ResName="skill1" Level="1" Quality="1" Morale="10" ComposePropNum="20" ComposePropID="201" TargetType="2" MaxTargetNum="99" ConditionType="3" IsBehitAct="Y" EntranceEffect="art/cocos/ani_skill_skillname.ExportJson" AboveHeroEffect="art/cocos/ani_adviser_leidian.ExportJson" UnderHeroEffect="" EffectCount="1" Effect1="1001" Effect2="" Effect3="" Effect4="" Effect5="" />
+  </Data>
+</Root>

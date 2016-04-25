@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="ID" Type="0" />
+    <Type Name="Name" Type="2" />
+    <Type Name="ResName" Type="2" />
+    <Type Name="ConditionType" Type="0" />
+    <Type Name="Param1" Type="0" />
+    <Type Name="Param2" Type="0" />
+    <Type Name="Param3" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line ID="1" Name="征战" ResName="campaign" ConditionType="1" Param1="0" Param2="" Param3="" />
+    <Line ID="2" Name="快速战斗" ResName="fight" ConditionType="1" Param1="0" Param2="" Param3="" />
+    <Line ID="3" Name="商店" ResName="mall" ConditionType="1" Param1="0" Param2="" Param3="" />
+    <Line ID="4" Name="抽奖" ResName="lottery" ConditionType="1" Param1="0" Param2="" Param3="" />
+    <Line ID="5" Name="未命名" ResName="test1" ConditionType="3" Param1="0" Param2="" Param3="" />
+    <Line ID="6" Name="未命名" ResName="test2" ConditionType="3" Param1="0" Param2="" Param3="" />
+    <Line ID="7" Name="未命名" ResName="test3" ConditionType="3" Param1="0" Param2="" Param3="" />
+    <Line ID="8" Name="未命名" ResName="test4" ConditionType="3" Param1="0" Param2="" Param3="" />
+    <Line ID="9" Name="未命名" ResName="test5" ConditionType="3" Param1="0" Param2="" Param3="" />
+  </Data>
+</Root>

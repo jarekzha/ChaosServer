@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="HeroID" Type="0" />
+    <Type Name="Quality" Type="0" />
+    <Type Name="Equipment1" Type="0" />
+    <Type Name="Equipment2" Type="0" />
+    <Type Name="Equipment3" Type="0" />
+    <Type Name="Equipment4" Type="0" />
+    <Type Name="Equipment5" Type="0" />
+    <Type Name="Equipment6" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line HeroID="1" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="1" Quality="2" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="2" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="3" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="4" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="5" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="6" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="7" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+    <Line HeroID="8" Quality="1" Equipment1="1" Equipment2="2" Equipment3="3" Equipment4="4" Equipment5="5" Equipment6="6" />
+  </Data>
+</Root>

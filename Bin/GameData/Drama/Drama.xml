@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="DramaID" Type="0" />
+    <Type Name="TalkerName" Type="2" />
+    <Type Name="TalkerUrl" Type="2" />
+    <Type Name="Direct" Type="0" />
+    <Type Name="DramaText" Type="2" />
+  </TypeMeta>
+  <Data>
+    <Line DramaID="1" TalkerName="吕布" TalkerUrl="lvbu" Direct="2" DramaText="哈哈哈，就凭你们这些三脚猫也敢挡我去路，简直是不知死活。" />
+    <Line DramaID="1" TalkerName="赵云" TalkerUrl="zhaoyun" Direct="1" DramaText="多说无益，打过便知。" />
+    <Line DramaID="1" TalkerName="吕布" TalkerUrl="lvbu" Direct="2" DramaText="哼，今天就让你们这些杂碎死无葬身之地！" />
+    <Line DramaID="1" TalkerName="小乔" TalkerUrl="xiaoqiao" Direct="1" DramaText="忠叔，三国里子龙哥和吕大蟋蟀有打起来过吗？我怎么觉得好像不太靠谱哎。" />
+    <Line DramaID="1" TalkerName="黄忠" TalkerUrl="huangzhong" Direct="2" DramaText="别管那么多了，安排你打你就打，小丫头不要想东想西的。" />
+    <Line DramaID="1" TalkerName="小乔" TalkerUrl="xiaoqiao" Direct="1" DramaText="哦，人家就是说说嘛。" />
+    <Line DramaID="1" TalkerName="许褚" TalkerUrl="xuchu" Direct="2" DramaText="废话少说，打完吃饭，开打开打！" />
+    <Line DramaID="1" TalkerName="张飞" TalkerUrl="zhangfei" Direct="1" DramaText="嗷嗷嗷！！！！！！" />
+  </Data>
+</Root>

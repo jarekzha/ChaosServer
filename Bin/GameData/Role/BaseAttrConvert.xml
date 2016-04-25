@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="AttributeID" Type="0" />
+    <Type Name="Special" Type="0" />
+    <Type Name="Health" Type="1" />
+    <Type Name="Attack" Type="1" />
+    <Type Name="Magic" Type="1" />
+    <Type Name="Defend" Type="1" />
+    <Type Name="Resis" Type="1" />
+    <Type Name="Heal" Type="1" />
+    <Type Name="Rage" Type="1" />
+    <Type Name="HitRate" Type="1" />
+    <Type Name="Dodge" Type="1" />
+    <Type Name="CritRate" Type="1" />
+    <Type Name="CritDamageRate" Type="1" />
+    <Type Name="ResilientRate" Type="1" />
+    <Type Name="CounterRate" Type="1" />
+    <Type Name="CounterDamageRate" Type="1" />
+    <Type Name="RestoreHP" Type="1" />
+    <Type Name="RestoreRage" Type="1" />
+    <Type Name="Suck" Type="1" />
+    <Type Name="Speed" Type="1" />
+    <Type Name="Move" Type="1" />
+  </TypeMeta>
+  <Data>
+    <Line AttributeID="4" Special="0" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+    <Line AttributeID="4" Special="1" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+    <Line AttributeID="5" Special="0" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+    <Line AttributeID="5" Special="1" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+    <Line AttributeID="6" Special="0" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+    <Line AttributeID="6" Special="1" Health="0" Attack="0" Magic="0" Defend="0" Resis="0" Heal="0" Rage="0" HitRate="0" Dodge="0" CritRate="0" CritDamageRate="0" ResilientRate="0" CounterRate="0" CounterDamageRate="0" RestoreHP="0" RestoreRage="0" Suck="0" Speed="0" Move="0" />
+  </Data>
+</Root>

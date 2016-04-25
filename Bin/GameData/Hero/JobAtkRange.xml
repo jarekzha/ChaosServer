@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="JobID" Type="0" />
+    <Type Name="Row" Type="0" />
+    <Type Name="OneX" Type="0" />
+    <Type Name="OneY" Type="0" />
+    <Type Name="TwoX" Type="0" />
+    <Type Name="TwoY" Type="0" />
+    <Type Name="ThreeX" Type="0" />
+    <Type Name="ThreeY" Type="0" />
+    <Type Name="FourX" Type="0" />
+    <Type Name="FourY" Type="0" />
+    <Type Name="FiveX" Type="0" />
+    <Type Name="FiveY" Type="0" />
+    <Type Name="SixX" Type="0" />
+    <Type Name="SixY" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line JobID="1" Row="1" OneX="2" OneY="0" TwoX="3" TwoY="0" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="1" Row="2" OneX="1" OneY="0" TwoX="2" TwoY="0" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="1" Row="3" OneX="1" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="2" Row="1" OneX="1" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="2" Row="2" OneX="" OneY="" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="2" Row="3" OneX="" OneY="" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="3" Row="1" OneX="2" OneY="-1" TwoX="2" TwoY="0" ThreeX="2" ThreeY="1" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="3" Row="2" OneX="1" OneY="-1" TwoX="1" TwoY="0" ThreeX="1" ThreeY="1" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="3" Row="3" OneX="" OneY="" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="4" Row="1" OneX="2" OneY="-1" TwoX="2" TwoY="0" ThreeX="2" ThreeY="1" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="4" Row="2" OneX="1" OneY="-1" TwoX="1" TwoY="0" ThreeX="1" ThreeY="1" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="4" Row="3" OneX="" OneY="" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="5" Row="1" OneX="3" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="5" Row="2" OneX="2" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="5" Row="3" OneX="1" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="6" Row="1" OneX="3" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="6" Row="2" OneX="2" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+    <Line JobID="6" Row="3" OneX="1" OneY="0" TwoX="" TwoY="" ThreeX="" ThreeY="" FourX="" FourY="" FiveX="" FiveY="" SixX="" SixY="" />
+  </Data>
+</Root>

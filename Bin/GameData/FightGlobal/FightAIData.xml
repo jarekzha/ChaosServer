@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="Initial" Type="0" />
+    <Type Name="LockTarget" Type="0" />
+    <Type Name="AttackFront" Type="0" />
+    <Type Name="AttackLeftFront" Type="0" />
+    <Type Name="AttackRightFront" Type="0" />
+    <Type Name="AttackLeft" Type="0" />
+    <Type Name="AttackRight" Type="0" />
+    <Type Name="AttackLeftBack" Type="0" />
+    <Type Name="AttackRightBack" Type="0" />
+    <Type Name="AttackBack" Type="0" />
+    <Type Name="MoveFront" Type="0" />
+    <Type Name="MoveLeft" Type="0" />
+    <Type Name="MoveRight" Type="0" />
+    <Type Name="MoveBack" Type="0" />
+    <Type Name="AttackDistance" Type="0" />
+    <Type Name="AttackTarget" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line Initial="1000000" LockTarget="2" AttackFront="104" AttackLeftFront="102" AttackRightFront="102" AttackLeft="103" AttackRight="103" AttackLeftBack="101" AttackRightBack="101" AttackBack="100" MoveFront="-10000" MoveLeft="-10001" MoveRight="-10001" MoveBack="-10002" AttackDistance="-1" AttackTarget="1000" />
+  </Data>
+</Root>

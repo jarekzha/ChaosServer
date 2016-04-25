@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="RoleFadeInTime" Type="0" />
+    <Type Name="StartWaitTime" Type="0" />
+    <Type Name="GoWaitTime" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line RoleFadeInTime="2000" StartWaitTime="2000" GoWaitTime="1000" />
+  </Data>
+</Root>

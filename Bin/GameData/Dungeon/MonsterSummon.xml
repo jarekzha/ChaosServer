@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <TypeMeta>
+    <Type Name="LevelID" Type="0" />
+    <Type Name="FightCounter" Type="0" />
+    <Type Name="MonsterID" Type="0" />
+    <Type Name="MonsterX" Type="0" />
+    <Type Name="MonsterY" Type="0" />
+    <Type Name="MonsterDirect" Type="0" />
+    <Type Name="MonsterGroupID" Type="0" />
+    <Type Name="MonsterRage" Type="0" />
+    <Type Name="DropGameMoney" Type="0" />
+    <Type Name="DropItem1Cycle" Type="0" />
+    <Type Name="DropItem1Rate" Type="0" />
+    <Type Name="DropItem1Type" Type="0" />
+    <Type Name="DropItem1ID" Type="0" />
+    <Type Name="DropItem2Cycle" Type="0" />
+    <Type Name="DropItem2Rate" Type="0" />
+    <Type Name="DropItem2Type" Type="0" />
+    <Type Name="DropItem2ID" Type="0" />
+    <Type Name="DropItem3Cycle" Type="0" />
+    <Type Name="DropItem3Rate" Type="0" />
+    <Type Name="DropItem3Type" Type="0" />
+    <Type Name="DropItem3ID" Type="0" />
+  </TypeMeta>
+  <Data>
+    <Line LevelID="1" FightCounter="1" MonsterID="1" MonsterX="1" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="1" MonsterID="2" MonsterX="2" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="1" MonsterID="3" MonsterX="3" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="2" MonsterID="1" MonsterX="1" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="2" MonsterID="2" MonsterX="2" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="2" MonsterID="3" MonsterX="3" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="3" MonsterID="1" MonsterX="1" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="3" MonsterID="2" MonsterX="2" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+    <Line LevelID="1" FightCounter="3" MonsterID="3" MonsterX="3" MonsterY="4" MonsterDirect="3" MonsterGroupID="1" MonsterRage="0" DropGameMoney="100" DropItem1Cycle="1" DropItem1Rate="10000" DropItem1Type="4" DropItem1ID="2" DropItem2Cycle="1" DropItem2Rate="5000" DropItem2Type="3" DropItem2ID="1" DropItem3Cycle="" DropItem3Rate="" DropItem3Type="" DropItem3ID="" />
+  </Data>
+</Root>
